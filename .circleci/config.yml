@@ -29,8 +29,8 @@ jobs:
               command: |
                 source ./venv/bin/activate
                 fhirutil validate $(pwd)/site_root/ig.ini --clear_output --publisher_opts='-tx n/a'
-        - run:
-            name: Run integration tests
-            command: |
-              source ./venv/bin/activate
-              pytest tests
+          - run:
+              name: Run integration tests
+              command: |
+                source ./venv/bin/activate
+                pytest tests
