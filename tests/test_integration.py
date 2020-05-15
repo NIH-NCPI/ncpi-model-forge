@@ -11,4 +11,4 @@ from ncpi_fhir_utility import cli
 
 
 def test():
-    pass
+    assert True
