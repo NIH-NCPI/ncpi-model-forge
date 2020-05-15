@@ -1,0 +1,36 @@
+# Python CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-python/ for more details
+#
+version: 2
+jobs:
+    build:
+        machine:
+            # Image has Python 3.7
+            image: circleci/classic:201808-01
+
+        working_directory: ~/repo
+
+        steps:
+          - checkout
+
+          - run:
+              name: "Switch to Python 3.7"
+              command: |
+                pyenv global 3.7.0
+                python --version
+
+          - run:
+              name: Build fhirutil CLI
+              command: ./scripts/build.sh
+
+          - run:
+              name: FHIR model validation
+              command: |
+                source ./venv/bin/activate
+                fhirutil validate $(pwd)/site_root/ig.ini --clear_output --publisher_opts='-tx n/a'
+          - run:
+              name: Run integration tests
+              command: |
+                source ./venv/bin/activate
+                pytest tests
