@@ -1,0 +1,15 @@
+{
+  "package-id": "ncpi-project-forge",
+  "title": "NCPI-Project-Forge Implementation Guide",
+  "canonical": "http://fhir.ncpi-project-forge.io",
+  "introduction": "An example of how FSH can be used to create an IG about kidsfirst",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Draft",
+      "path": "http://fhir.ncpi-project-forge.io",
+      "status": "ci-build",
+      "current": true
+    }
+  ]
+}

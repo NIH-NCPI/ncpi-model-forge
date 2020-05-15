@@ -1,0 +1,161 @@
+{
+  "contact": [
+    {
+      "name": "NCPI Project Forge",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ncpi.org"
+        }
+      ]
+    }
+  ],
+  "definition": {
+    "page": {
+      "generation": "html",
+      "nameUrl": "toc.html",
+      "page": [
+        {
+          "generation": "markdown",
+          "nameUrl": "index.html",
+          "title": "NCPI Project Forge Implementation Guide"
+        }
+      ],
+      "title": "Table of Contents"
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2020+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources/search"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources/terminology"
+      }
+    ],
+    "resource": [
+      {
+        "description": "Kids First StructureDefinition us-core-race, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Kids First StructureDefinition/us-core-race",
+        "reference": {
+          "reference": "StructureDefinition/us-core-race"
+        }
+      },
+      {
+        "description": "Kids First StructureDefinition us-core-ethnicity, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Kids First StructureDefinition/us-core-ethnicity",
+        "reference": {
+          "reference": "StructureDefinition/us-core-ethnicity"
+        }
+      },
+      {
+        "description": "Kids First SearchParameter us-core-ethnicity",
+        "exampleBoolean": false,
+        "name": "Kids First SearchParameter/us-core-ethnicity",
+        "reference": {
+          "reference": "SearchParameter/us-core-ethnicity"
+        }
+      },
+      {
+        "description": "Kids First SearchParameter us-core-race",
+        "exampleBoolean": false,
+        "name": "Kids First SearchParameter/us-core-race",
+        "reference": {
+          "reference": "SearchParameter/us-core-race"
+        }
+      },
+      {
+        "description": "Kids First CodeSystem cdcrec",
+        "exampleBoolean": false,
+        "name": "Kids First CodeSystem/cdcrec",
+        "reference": {
+          "reference": "CodeSystem/cdcrec"
+        }
+      },
+      {
+        "description": "Kids First ValueSet detailed-ethnicity",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/detailed-ethnicity",
+        "reference": {
+          "reference": "ValueSet/detailed-ethnicity"
+        }
+      },
+      {
+        "description": "Kids First ValueSet detailed-race",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/detailed-race",
+        "reference": {
+          "reference": "ValueSet/detailed-race"
+        }
+      },
+      {
+        "description": "Kids First ValueSet omb-ethnicity-category",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/omb-ethnicity-category",
+        "reference": {
+          "reference": "ValueSet/omb-ethnicity-category"
+        }
+      },
+      {
+        "description": "Kids First ValueSet omb-race-category",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/omb-race-category",
+        "reference": {
+          "reference": "ValueSet/omb-race-category"
+        }
+      },
+      {
+        "description": "Kids First Patient pt-001, Profiles: ncpi-patient",
+        "exampleBoolean": true,
+        "name": "Kids First Patient/pt-001",
+        "reference": {
+          "reference": "Patient/pt-001"
+        }
+      },
+      {
+        "description": "Kids First StructureDefinition ncpi-patient, Base: Patient",
+        "exampleBoolean": false,
+        "name": "Kids First StructureDefinition/ncpi-patient",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-patient"
+        }
+      }
+    ]
+  },
+  "description": "Documentation for the NCPI Project Forge FHIR data model",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "id": "NCPI-Project-Forge",
+  "license": "CC0-1.0",
+  "name": "NCPI-Project-ForgeImplementationGuide",
+  "packageId": "kidsfirst",
+  "publisher": "NCPI Project Forge",
+  "resourceType": "ImplementationGuide",
+  "status": "active",
+  "title": "NCPI Project Forge Implementation Guide",
+  "url": "http://fhir.ncpi-project-forge.io/ImplementationGuide/NCPI-Project-Forge",
+  "version": "0.1.0"
+}
