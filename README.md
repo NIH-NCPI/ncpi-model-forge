@@ -106,12 +106,28 @@ fhirutil add ./site_root/input/resources
 java -jar org.hl7.fhir.publisher.jar -ig site_root/ig.ini -tx n/a
 ```
 
-Method 2 is faster since it's running the IG Publisher directly and does
-not need to spin up a Docker container, but it means that you must first
-install the IG Publisher yourself ([IG Publisher installation instructions](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation#IGPublisherDocumentation-Installing)).
+#### Method 1 - Dockerized IG Publisher
 
-See [NCPI FHIR Utility](https://github.com/ncpi-fhir/ncpi-fhir-utility)
-for more information on these two methods.
+This method is slower since the `fhirutil` CLI has to spin up the Docker
+container which runs the IG Publisher. The benefit of this is that, you
+do not have to install the IG Publisher or its dependencies (Java, Jekyll)
+on your machine.
+
+The Docker images for the IG Publisher are built in the
+[NCPI FHIR IG Publisher](https://github.com/ncpi-fhir/hl7-fhir-ig-publisher)
+repository.
+
+#### Method 2 - Native IG Publisher
+Method 2 is faster since it's running the IG Publisher on your local machine,
+but it means that you must first install the IG Publisher yourself.
+
+1. Install the dependencies: [IG Publisher installation instructions](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation#IGPublisherDocumentation-Installing).
+
+2. Download the right version of the IG Publisher jar
+
+    The version you must use should be identical to what the Dockerized IG Publisher
+    uses. You can use the [Fetch IG Publisher script](https://github.com/ncpi-fhir/hl7-fhir-ig-publisher/blob/master/scripts/fetch_publisher_jar.sh) to download the correct version
+    of the IG Publisher jar.
 
 ### 4. View Validation Results
 

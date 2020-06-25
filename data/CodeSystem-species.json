@@ -1,0 +1,27 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "species",
+  "url": "http://fhir.ncpi-project-forge.io/CodeSystem/species",
+  "version": "0.1.0",
+  "name": "species",
+  "title": "Species",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "NCPI Project Forge",
+  "description": "Species of the NCPI Project Forge Patient, imported from http://snomed.info/sct.",
+  "caseSensitive": true,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "337915000",
+      "display": "Homo sapiens",
+      "definition": "Human."
+    },
+    {
+      "code": "448771007",
+      "display": "Canis lupus subspecies familiaris",
+      "definition": "Domestic dog."
+    }
+  ]
+}
