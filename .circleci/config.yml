@@ -33,4 +33,5 @@ jobs:
               name: Run integration tests
               command: |
                 source ./venv/bin/activate
+                pip install -r dev-requirements.txt
                 pytest tests
