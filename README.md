@@ -6,10 +6,10 @@
 
 If you have never heard of FHIR, are unfamiliar with how to implement FHIR,
 or are confused by any of the terms in this README, then
-checkout the 📓 [FHIR 101 Jupyter Notebook](https://github.com/ncpi-fhir/fhir-101).
+check out the 📓 [FHIR 101 Jupyter Notebook](https://github.com/ncpi-fhir/fhir-101).
 
 
-## Contributors
+## Contributing
 
 If you are a new contributor to the Project Forge FHIR model, please
 review the 📓 [NCPI FHIR Software Development Guide](FHIR-SW-Development-Guide.ipynb)
@@ -32,7 +32,7 @@ This repository contains:
 folder structure needed to build HL7 documentation (known as an ImplementationGuide)
 for the FHIR data model
 2. [NCPI Project Forge FHIR Model](site_root/input/resources) - conformance and
-example resource files that make up the FHIR model.
+example resource files that make up the FHIR model
 4. [Unit Tests](tests) - to test the FHIR model
 
 ## Installation
@@ -50,7 +50,7 @@ cd ncpi-model-forge
 python3 -m venv venv
 
 # Activate virtualenv
-source ./venv/bin/activate
+source venv/bin/activate
 ```
 
 3. Install the necessary requirements
@@ -72,6 +72,7 @@ Docker is needed because the fhirutil CLI executes the model validation
 inside a Dockerized version of the HL7 IG Publisher.
 
 ## Develop
+
 This section gives a quick overview of how to contribute to the Project
 Forge FHIR model. Developers are highly encouraged to go through the
 📓 [NCPI FHIR Software Development Guide](FHIR-SW-Development-Guide.ipynb).
@@ -81,13 +82,13 @@ and development tools.
 Follow the steps below to get an idea of how FHIR model development and
 validation works.
 
-### 1. Add a new conformance resource
+### 1. Add a new example conformance resource
 
 ```shell
 cp docs/data/StructureDefinition-research-study.json site_root/input/resources/profiles
 ```
 
-### 2. Add a new example resource to test the conformance resource
+### 2. Add a new example data resource to test the conformance resource
 
 ```shell
 cp docs/data/ResearchStudy-sd-001.json site_root/input/resources/examples
@@ -118,14 +119,15 @@ The Docker images for the IG Publisher are built in the
 repository.
 
 #### Method 2 - Native IG Publisher
+
 Method 2 is faster since it's running the IG Publisher on your local machine,
 but it means that you must first install the IG Publisher yourself.
 
 1. Install the dependencies: [IG Publisher installation instructions](https://confluence.hl7.org/display/FHIR/IG+Publisher+Documentation#IGPublisherDocumentation-Installing).
 
-2. Download the right version of the IG Publisher jar
+2. Download the right version of the IG Publisher jar.
 
-    The version you must use should be identical to what the Dockerized IG Publisher
+    The version you use should be identical to what the Dockerized IG Publisher
     uses. You can use the [Fetch IG Publisher script](https://github.com/ncpi-fhir/hl7-fhir-ig-publisher/blob/master/scripts/fetch_publisher_jar.sh) to download the correct version
     of the IG Publisher jar.
 
@@ -143,22 +145,22 @@ results at `./site_root/output/qa.html`
 ```text
 site_root
 ├── ig.ini                                     -> IG configuration file
-├── input
-│   ├── ImplementationGuide-KidsFirst.json     -> IG FHIR resource
-│   └── resources                              -> FHIR resources that make up the models
-│       ├── examples                           -> Example resources
-│       ├── extensions                         -> Extensions
-│       ├── profiles                           -> StructureDefinition (non-Extension)
-│       ├── search                             -> SearchParameters
-│       └── terminology                        -> CodeSystems, ValueSets
+└── input
+    ├── ImplementationGuide-KidsFirst.json     -> IG FHIR resource
+    └── resources                              -> FHIR resources that make up the models
+        ├── examples                           -> Example resources
+        ├── extensions                         -> Extensions
+        ├── profiles                           -> StructureDefinition (non-Extension)
+        ├── search                             -> SearchParameters
+        └── terminology                        -> CodeSystems, ValueSets
 ```
 
 The files `ig.ini` and `ImplementationGuide-NCPI-Project-Forge.json` contain
 configuration information for the FHIR model's ImplementationGuide and
 affect which resources are validated and included in the generated site.
 
-Read more about them [here](https://build.fhir.org/ig/FHIR/ig-guidance/index.html)
-and [here](http://www.hl7.org/fhir/implementationguide.html)
+Read more about them at <https://build.fhir.org/ig/FHIR/ig-guidance/index.html>
+and <http://www.hl7.org/fhir/implementationguide.html>
 
 ### Naming Conventions
 
