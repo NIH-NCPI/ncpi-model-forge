@@ -70,6 +70,25 @@
         ],
         "mustSupport": true,
         "isModifier": false
+      },
+      {
+        "id": "Patient.extension:species",
+        "path": "Patient.extension",
+        "sliceName": "species",
+        "short": "Species",
+        "definition": "Species of the NCPI Project Forge Patient.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://fhir.ncpi-project-forge.io/StructureDefinition/species"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "isModifier": false
       }
     ]
   }

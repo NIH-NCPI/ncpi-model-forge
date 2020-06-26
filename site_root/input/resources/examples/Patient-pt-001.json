@@ -40,6 +40,19 @@
           "valueString": "White"
         }
       ]
+    },
+    {
+      "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/species",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "http://fhir.ncpi-project-forge.io/CodeSystem/species",
+            "code": "337915000",
+            "display": "Homo sapiens"
+          }
+        ],
+        "text": "Homo Sapiens"
+      }
     }
   ],
   "identifier": [

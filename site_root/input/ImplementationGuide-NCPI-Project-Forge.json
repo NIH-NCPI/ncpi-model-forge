@@ -55,91 +55,115 @@
     ],
     "resource": [
       {
-        "description": "NCPI StructureDefinition us-core-race, Base: Extension",
+        "description": "Kids First StructureDefinition us-core-race, Base: Extension",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/us-core-race",
+        "name": "Kids First StructureDefinition/us-core-race",
         "reference": {
           "reference": "StructureDefinition/us-core-race"
         }
       },
       {
-        "description": "NCPI StructureDefinition us-core-ethnicity, Base: Extension",
+        "description": "Kids First StructureDefinition us-core-ethnicity, Base: Extension",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/us-core-ethnicity",
+        "name": "Kids First StructureDefinition/us-core-ethnicity",
         "reference": {
           "reference": "StructureDefinition/us-core-ethnicity"
         }
       },
       {
-        "description": "NCPI SearchParameter us-core-ethnicity",
+        "description": "Kids First SearchParameter us-core-ethnicity",
         "exampleBoolean": false,
-        "name": "NCPI SearchParameter/us-core-ethnicity",
+        "name": "Kids First SearchParameter/us-core-ethnicity",
         "reference": {
           "reference": "SearchParameter/us-core-ethnicity"
         }
       },
       {
-        "description": "NCPI SearchParameter us-core-race",
+        "description": "Kids First SearchParameter us-core-race",
         "exampleBoolean": false,
-        "name": "NCPI SearchParameter/us-core-race",
+        "name": "Kids First SearchParameter/us-core-race",
         "reference": {
           "reference": "SearchParameter/us-core-race"
         }
       },
       {
-        "description": "NCPI CodeSystem cdcrec",
+        "description": "Kids First CodeSystem cdcrec",
         "exampleBoolean": false,
-        "name": "NCPI CodeSystem/cdcrec",
+        "name": "Kids First CodeSystem/cdcrec",
         "reference": {
           "reference": "CodeSystem/cdcrec"
         }
       },
       {
-        "description": "NCPI ValueSet detailed-ethnicity",
+        "description": "Kids First ValueSet detailed-ethnicity",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/detailed-ethnicity",
+        "name": "Kids First ValueSet/detailed-ethnicity",
         "reference": {
           "reference": "ValueSet/detailed-ethnicity"
         }
       },
       {
-        "description": "NCPI ValueSet detailed-race",
+        "description": "Kids First ValueSet detailed-race",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/detailed-race",
+        "name": "Kids First ValueSet/detailed-race",
         "reference": {
           "reference": "ValueSet/detailed-race"
         }
       },
       {
-        "description": "NCPI ValueSet omb-ethnicity-category",
+        "description": "Kids First ValueSet omb-ethnicity-category",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/omb-ethnicity-category",
+        "name": "Kids First ValueSet/omb-ethnicity-category",
         "reference": {
           "reference": "ValueSet/omb-ethnicity-category"
         }
       },
       {
-        "description": "NCPI ValueSet omb-race-category",
+        "description": "Kids First ValueSet omb-race-category",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/omb-race-category",
+        "name": "Kids First ValueSet/omb-race-category",
         "reference": {
           "reference": "ValueSet/omb-race-category"
         }
       },
       {
-        "description": "NCPI Patient pt-001, Profiles: ncpi-patient",
+        "description": "Kids First Patient pt-001, Profiles: ncpi-patient",
         "exampleBoolean": true,
-        "name": "NCPI Patient/pt-001",
+        "name": "Kids First Patient/pt-001",
         "reference": {
           "reference": "Patient/pt-001"
         }
       },
       {
-        "description": "NCPI StructureDefinition ncpi-patient, Base: Patient",
+        "description": "Kids First StructureDefinition ncpi-patient, Base: Patient",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/ncpi-patient",
+        "name": "Kids First StructureDefinition/ncpi-patient",
         "reference": {
           "reference": "StructureDefinition/ncpi-patient"
+        }
+      },
+      {
+        "description": "Kids First StructureDefinition species, Base: Extension",
+        "exampleBoolean": false,
+        "name": "Kids First StructureDefinition/species",
+        "reference": {
+          "reference": "StructureDefinition/species"
+        }
+      },
+      {
+        "description": "Kids First CodeSystem species",
+        "exampleBoolean": false,
+        "name": "Kids First CodeSystem/species",
+        "reference": {
+          "reference": "CodeSystem/species"
+        }
+      },
+      {
+        "description": "Kids First ValueSet species",
+        "exampleBoolean": false,
+        "name": "Kids First ValueSet/species",
+        "reference": {
+          "reference": "ValueSet/species"
         }
       }
     ]
