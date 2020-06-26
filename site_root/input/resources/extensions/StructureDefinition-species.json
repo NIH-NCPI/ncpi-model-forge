@@ -1,0 +1,64 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "species",
+  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/species",
+  "version": "0.1.0",
+  "name": "species",
+  "title": "Species",
+  "status": "draft",
+  "description": "Species of the NCPI Project Forge Patient.",
+  "fhirVersion": "4.0.0",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Species",
+        "definition": "Species of the NCPI Project Forge Patient.",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "http://fhir.ncpi-project-forge.io/StructureDefinition/species"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "description": "Species of the NCPI Project Forge Patient.",
+          "valueSet": "http://fhir.ncpi-project-forge.io/ValueSet/species"
+        }
+      }
+    ]
+  }
+}
