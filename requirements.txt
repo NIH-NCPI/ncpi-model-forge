@@ -1,1 +1,2 @@
 ncpi_fhir_utility @ git+https://git@github.com/ncpi-fhir/ncpi-fhir-utility.git
+kf_lib_data_ingest @ git+https://git@github.com/kids-first/kf-lib-data-ingest.git@latest-release
