@@ -12,7 +12,7 @@ check out the 📓 [FHIR 101 Jupyter Notebook](https://github.com/ncpi-fhir/fhir
 ## Contributing
 
 If you are a new contributor to the Project Forge FHIR model, please
-review the 📓 [NCPI FHIR Software Development Guide](FHIR-SW-Development-Guide.ipynb)
+review the 📓 [NCPI FHIR Software Development Guide](https://www.notion.so/d3b/NCPI-Forge-Development-Guide-4583e53de1fb4ffaa0bc46bc38a3c5fb)
 Jupyter Notebook. It will walk you through the NCPI software development life cycle
 for the FHIR model using a practical example.
 
@@ -43,7 +43,7 @@ git clone git@github.com:ncpi-fhir/ncpi-model-forge.git
 cd ncpi-model-forge
 ```
 
-2. Setup a Python virtual environment
+2. Set up a Python virtual environment
 
 ```bash
 # Create virtualenv
