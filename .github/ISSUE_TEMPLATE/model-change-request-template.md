@@ -1,5 +1,5 @@
 ---
-name: Model Change Request Template
+name: Model Change Request
 about: This will be used when anyone has a request to change the FHIR model
 title: ''
 labels: 'Model: New request'
