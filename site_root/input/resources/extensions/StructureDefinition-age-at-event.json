@@ -1,0 +1,72 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "age-at-event",
+  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event",
+  "version": "0.1.0",
+  "name": "age-at-event",
+  "title": "Age At Event",
+  "status": "draft",
+  "description": "Age (since birth) of Patient at time of event.",
+  "fhirVersion": "4.0.0",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Patient"
+    },
+    {
+      "type": "element",
+      "expression": "Observation"
+    },
+    {
+      "type": "element",
+      "expression": "Condition"
+    },
+    {
+      "type": "element",
+      "expression": "Specimen"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Age at event",
+        "definition": "Age (since birth) of Patient at time of event.",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "isModifier": false
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "type": [
+          {
+            "code": "uri"
+          }
+        ],
+        "fixedUri": "http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "Age"
+          }
+        ]
+      }
+    ]
+  },
+  "date": "2020-09-11T13:26:16.027571+06:00"
+}
