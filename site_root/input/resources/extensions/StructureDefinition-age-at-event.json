@@ -11,22 +11,6 @@
   "kind": "complex-type",
   "abstract": false,
   "context": [
-    {
-      "type": "element",
-      "expression": "Patient"
-    },
-    {
-      "type": "element",
-      "expression": "Observation"
-    },
-    {
-      "type": "element",
-      "expression": "Condition"
-    },
-    {
-      "type": "element",
-      "expression": "Specimen"
-    }
   ],
   "type": "Extension",
   "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
