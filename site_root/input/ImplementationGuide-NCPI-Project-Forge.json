@@ -55,91 +55,91 @@
     ],
     "resource": [
       {
-        "description": "NCPI StructureDefinition us-core-race, Base: Extension",
+        "description": "NCPI Project Forge StructureDefinition us-core-race, Base: Extension",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/us-core-race",
+        "name": "NCPI Project Forge StructureDefinition/us-core-race",
         "reference": {
           "reference": "StructureDefinition/us-core-race"
         }
       },
       {
-        "description": "NCPI StructureDefinition us-core-ethnicity, Base: Extension",
+        "description": "NCPI Project Forge StructureDefinition us-core-ethnicity, Base: Extension",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/us-core-ethnicity",
+        "name": "NCPI Project Forge StructureDefinition/us-core-ethnicity",
         "reference": {
           "reference": "StructureDefinition/us-core-ethnicity"
         }
       },
       {
-        "description": "NCPI SearchParameter us-core-ethnicity",
+        "description": "NCPI Project Forge SearchParameter us-core-ethnicity",
         "exampleBoolean": false,
-        "name": "NCPI SearchParameter/us-core-ethnicity",
+        "name": "NCPI Project Forge SearchParameter/us-core-ethnicity",
         "reference": {
           "reference": "SearchParameter/us-core-ethnicity"
         }
       },
       {
-        "description": "NCPI SearchParameter us-core-race",
+        "description": "NCPI Project Forge SearchParameter us-core-race",
         "exampleBoolean": false,
-        "name": "NCPI SearchParameter/us-core-race",
+        "name": "NCPI Project Forge SearchParameter/us-core-race",
         "reference": {
           "reference": "SearchParameter/us-core-race"
         }
       },
       {
-        "description": "NCPI CodeSystem cdcrec",
+        "description": "NCPI Project Forge CodeSystem cdcrec",
         "exampleBoolean": false,
-        "name": "NCPI CodeSystem/cdcrec",
+        "name": "NCPI Project Forge CodeSystem/cdcrec",
         "reference": {
           "reference": "CodeSystem/cdcrec"
         }
       },
       {
-        "description": "NCPI ValueSet detailed-ethnicity",
+        "description": "NCPI Project Forge ValueSet detailed-ethnicity",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/detailed-ethnicity",
+        "name": "NCPI Project Forge ValueSet/detailed-ethnicity",
         "reference": {
           "reference": "ValueSet/detailed-ethnicity"
         }
       },
       {
-        "description": "NCPI ValueSet detailed-race",
+        "description": "NCPI Project Forge ValueSet detailed-race",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/detailed-race",
+        "name": "NCPI Project Forge ValueSet/detailed-race",
         "reference": {
           "reference": "ValueSet/detailed-race"
         }
       },
       {
-        "description": "NCPI ValueSet omb-ethnicity-category",
+        "description": "NCPI Project Forge ValueSet omb-ethnicity-category",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/omb-ethnicity-category",
+        "name": "NCPI Project Forge ValueSet/omb-ethnicity-category",
         "reference": {
           "reference": "ValueSet/omb-ethnicity-category"
         }
       },
       {
-        "description": "NCPI ValueSet omb-race-category",
+        "description": "NCPI Project Forge ValueSet omb-race-category",
         "exampleBoolean": false,
-        "name": "NCPI ValueSet/omb-race-category",
+        "name": "NCPI Project Forge ValueSet/omb-race-category",
         "reference": {
           "reference": "ValueSet/omb-race-category"
         }
       },
       {
-        "description": "NCPI Patient pt-001, Profiles: ncpi-patient",
+        "description": "NCPI Project Forge Patient pt-001, Profiles: Patient",
         "exampleBoolean": true,
-        "name": "NCPI Patient/pt-001",
+        "name": "NCPI Project Forge Patient/pt-001",
         "reference": {
           "reference": "Patient/pt-001"
         }
       },
       {
-        "description": "NCPI StructureDefinition ncpi-patient, Base: Patient",
+        "description": "NCPI Project Forge StructureDefinition age-at-event, Base: Extension",
         "exampleBoolean": false,
-        "name": "NCPI StructureDefinition/ncpi-patient",
+        "name": "NCPI Project Forge StructureDefinition/age-at-event",
         "reference": {
-          "reference": "StructureDefinition/ncpi-patient"
+          "reference": "StructureDefinition/age-at-event"
         }
       }
     ]
