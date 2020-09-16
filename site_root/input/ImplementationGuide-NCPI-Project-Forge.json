@@ -141,38 +141,6 @@
         "reference": {
           "reference": "StructureDefinition/age-at-event"
         }
-      },
-      {
-        "description": "NCPI Project Forge CodeSystem hp",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge CodeSystem/hp",
-        "reference": {
-          "reference": "CodeSystem/hp"
-        }
-      },
-      {
-        "description": "NCPI Project Forge CodeSystem snomedct",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge CodeSystem/snomedct",
-        "reference": {
-          "reference": "CodeSystem/snomedct"
-        }
-      },
-      {
-        "description": "NCPI Project Forge ValueSet phenotype-codes",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge ValueSet/phenotype-codes",
-        "reference": {
-          "reference": "ValueSet/phenotype-codes"
-        }
-      },
-      {
-        "description": "NCPI Project Forge ValueSet snomed-codes",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge ValueSet/snomed-codes",
-        "reference": {
-          "reference": "ValueSet/snomed-codes"
-        }
       }
     ]
   },
