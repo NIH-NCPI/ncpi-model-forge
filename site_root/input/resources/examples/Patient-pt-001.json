@@ -3,7 +3,7 @@
   "id": "pt-001",
   "meta": {
     "profile": [
-      "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-patient"
+      "http://hl7.org/fhir/StructureDefinition/Patient"
     ]
   },
   "extension": [
