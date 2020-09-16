@@ -127,7 +127,7 @@
         }
       },
       {
-        "description": "NCPI Project Forge Patient pt-001, Profiles: ncpi-patient",
+        "description": "NCPI Project Forge Patient pt-001, Profiles: patient",
         "exampleBoolean": true,
         "name": "NCPI Project Forge Patient/pt-001",
         "reference": {
