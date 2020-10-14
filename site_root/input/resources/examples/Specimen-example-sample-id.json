@@ -1,0 +1,14 @@
+{
+  "resourceType": "Specimen",
+  "id": "example-sample-id",
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-sample-id"
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/example-patient-id"
+  }
+}

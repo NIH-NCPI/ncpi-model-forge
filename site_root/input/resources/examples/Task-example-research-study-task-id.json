@@ -1,0 +1,34 @@
+{
+  "resourceType": "Task",
+  "id": "example-research-study-task-id",
+  "status": "accepted",
+  "intent": "unknown",
+  "input": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "ResearchStudy"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "ResearchStudy/example-project-id"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "DocumentReference"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/example-research-study-document-reference-id"
+      }
+    }
+  ]
+}

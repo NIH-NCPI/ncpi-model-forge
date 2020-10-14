@@ -1,0 +1,10 @@
+{
+  "resourceType": "Patient",
+  "id": "example-patient-id",
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-patient-id"
+    }
+  ]
+}

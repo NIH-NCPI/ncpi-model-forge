@@ -1,0 +1,15 @@
+{
+  "resourceType": "ResearchStudy",
+  "id": "example-project-id",
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-project-id"
+    }
+  ],
+  "title": "my NCPI research study example",
+  "status": "active",
+  "principalInvestigator": {
+    "reference": "Practitioner/example-principle-investigator"
+  }
+}
