@@ -1,0 +1,23 @@
+{
+  "resourceType": "DocumentReference",
+  "id": "example-document-reference-id",
+  "meta": {
+    "profile": [
+      "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-document-reference"
+    ]
+  },
+  "status": "current",
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-document-reference-id"
+    }
+  ],
+  "content": [
+    {         
+      "attachment": {
+        "url": "drs://example.com/ga4gh/drs/v1/objects/0f8c27b9-3300-4249-bb28-f49ffb80e277"
+      }
+    }
+  ]
+}

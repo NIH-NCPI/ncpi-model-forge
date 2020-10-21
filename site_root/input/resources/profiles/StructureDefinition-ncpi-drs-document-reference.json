@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ncpi-document-reference",
+  "id": "ncpi-drs-document-reference",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,12 +11,12 @@
       "valueCode": "not-classified"
     }
   ],
-  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-document-reference",
+  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-document-reference",
   "version": "0.2.1",
-  "name": "NCPIDocumentReference",
-  "title": "NCPI Document Reference",
+  "name": "DRSDocumentReference",
+  "title": "DRS Document Reference",
   "status": "active",
-  "description": "An association to a document.",
+  "description": "A FHIR Document Reference with an embedded DRS URI. See https://github.com/ga4gh/data-repository-service-schemas",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -63,30 +63,13 @@
   "differential": {
     "element": [
       {
-        "id": "DocumentReference.extension",
-        "path": "DocumentReference.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
-        "id": "DocumentReference.extension:owners",
-        "path": "DocumentReference.extension",
-        "sliceName": "owners",
-        "min": 0,
-        "max": "*",
+        "id": "DocumentReference.content.attachment",
+        "path": "DocumentReference.content.attachment",
         "type": [
           {
-            "code": "Extension",
+            "code": "Attachment",
             "profile": [
-              "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-document-owner"
+              "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-attachment"
             ]
           }
         ]

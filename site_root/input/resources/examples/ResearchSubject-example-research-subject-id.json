@@ -1,0 +1,22 @@
+{
+  "resourceType": "ResearchSubject",
+  "id": "example-research-subject-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/ResearchSubject"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-research-subject-id"
+    }
+  ],
+  "status": "on-study",
+  "study": {
+    "reference": "ResearchStudy/example-research-study-id"
+  },
+  "individual": {
+    "reference": "Patient/pt-001"
+  }
+}
