@@ -197,6 +197,62 @@
         "reference": {
           "reference": "StructureDefinition/ncpi-family-relationship"
         }
+      },
+      {
+        "description": "NCPI Project Forge ValueSet phenotype-codes",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge ValueSet/phenotype-codes",
+        "reference": {
+          "reference": "ValueSet/phenotype-codes"
+        }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem hp",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/hp",
+        "reference": {
+          "reference": "CodeSystem/hp"
+        }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem snomed-ct",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/snomed-ct",
+        "reference": {
+          "reference": "CodeSystem/snomed-ct"
+        }
+      },
+      {
+        "description": "NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge StructureDefinition/ncpi-phenotype",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-phenotype"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Observation ph-001, Profiles: ncpi-phenotype",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Observation/ph-001",
+        "reference": {
+          "reference": "Observation/ph-001"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ValueSet phenotype-observation-codes",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge ValueSet/phenotype-observation-codes",
+        "reference": {
+          "reference": "ValueSet/phenotype-observation-codes"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ValueSet phenotype-interpretation",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge ValueSet/phenotype-interpretation",
+        "reference": {
+          "reference": "ValueSet/phenotype-interpretation"
+        }
       }
     ]
   },
