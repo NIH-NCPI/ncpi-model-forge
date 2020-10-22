@@ -1,0 +1,47 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ncpi-phenotype",
+  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-phenotype",
+  "version": "0.1.0",
+  "name": "ncpi-phenotype",
+  "title": "NCPI Project Forge Human Phenotype",
+  "status": "draft",
+  "fhirVersion": "4.0.0",
+  "kind": "resource",
+  "abstract": false,
+  "type": "Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Observation",
+        "path": "Observation"
+      },
+      {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-codes"
+        }
+      },
+      {
+        "id": "Observation.valueCodeableConcept",
+        "path": "Observation.valueCodeableConcept",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-observation-codes"
+        }
+      },
+      {
+        "id": "Observation.interpretation",
+        "path": "Observation.interpretation",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-interpretation"
+        }
+      }
+    ]
+  }
+}
