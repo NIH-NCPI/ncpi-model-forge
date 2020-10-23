@@ -28,7 +28,7 @@ jobs:
               name: FHIR model validation
               command: |
                 source ./venv/bin/activate
-                fhirutil validate $(pwd)/site_root/ig.ini --clear_output --publisher_opts='-tx n/a'
+                fhirutil validate $(pwd)/site_root/ig.ini --clear_output --publisher_opts='-tx https://r4.ontoserver.csiro.au/fhir'
           - run:
               name: Run integration tests
               command: |
