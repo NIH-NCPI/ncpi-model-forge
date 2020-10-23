@@ -11,18 +11,10 @@ check out the 📓 [FHIR 101 Jupyter Notebook](https://github.com/ncpi-fhir/fhir
 
 ## Contributing
 
-If you are a new contributor to the Project Forge FHIR model, please
-review the 📓 [NCPI FHIR Software Development Guide](https://www.notion.so/d3b/NCPI-Forge-Development-Guide-4583e53de1fb4ffaa0bc46bc38a3c5fb)
-Jupyter Notebook. It will walk you through the NCPI software development life cycle
+If you are a new contributor to the Project Forge FHIR model, 
+please review the 📓 [NCPI Project Forge Development Guide](https://www.notion.so/d3b/NCPI-Forge-Development-Guide-4583e53de1fb4ffaa0bc46bc38a3c5fb) Notion page. 
+It will walk you through the NCPI software development life cycle 
 for the FHIR model using a practical example.
-
-To run this notebook, follow the [Installation](#Installation) instructions.
-Then install Jupyter and run the notebook:
-
-```bash
-pip install jupyter
-jupyter notebook
-```
 
 ## Overview
 
