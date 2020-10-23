@@ -207,22 +207,6 @@
         }
       },
       {
-        "description": "NCPI Project Forge CodeSystem hp",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge CodeSystem/hp",
-        "reference": {
-          "reference": "CodeSystem/hp"
-        }
-      },
-      {
-        "description": "NCPI Project Forge CodeSystem snomed-ct",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge CodeSystem/snomed-ct",
-        "reference": {
-          "reference": "CodeSystem/snomed-ct"
-        }
-      },
-      {
         "description": "NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation",
         "exampleBoolean": false,
         "name": "NCPI Project Forge StructureDefinition/ncpi-phenotype",
@@ -252,6 +236,38 @@
         "name": "NCPI Project Forge ValueSet/phenotype-interpretation",
         "reference": {
           "reference": "ValueSet/phenotype-interpretation"
+        }
+      },
+      {
+        "description": "NCPI Project Forge SearchParameter age-at-event",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge SearchParameter/age-at-event",
+        "reference": {
+          "reference": "SearchParameter/age-at-event"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Condition dg-001, Profiles: ncpi-disease",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Condition/dg-001",
+        "reference": {
+          "reference": "Condition/dg-001"
+        }
+      },
+      {
+        "description": "NCPI Project Forge StructureDefinition ncpi-disease, Base: Condition",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge StructureDefinition/ncpi-disease",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-disease"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ValueSet disease-codes",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge ValueSet/disease-codes",
+        "reference": {
+          "reference": "ValueSet/disease-codes"
         }
       }
     ]
