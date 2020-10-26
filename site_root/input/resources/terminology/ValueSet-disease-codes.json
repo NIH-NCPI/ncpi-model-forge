@@ -1,0 +1,19 @@
+{
+  "resourceType": "ValueSet",
+  "id": "disease-codes",
+  "url": "http://fhir.ncpi-project-forge.io/ValueSet/disease-codes",
+  "version": "0.1.0",
+  "name": "disease-codes",
+  "title": "Disease Codes",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "NCPI Project Forge",
+  "description": "This value set includes all codes from NCIt (NCI Thesaurus).",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/ncit.owl"
+      }
+    ]
+  }
+}

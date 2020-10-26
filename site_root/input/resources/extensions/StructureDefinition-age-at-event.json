@@ -13,7 +13,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Observation"
+      "expression": "Patient"
     },
     {
       "type": "element",
@@ -21,11 +21,11 @@
     },
     {
       "type": "element",
-      "expression": "Specimen"
+      "expression": "Observation"
     },
     {
       "type": "element",
-      "expression": "Patient"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -67,6 +67,5 @@
         ]
       }
     ]
-  },
-  "date": "2020-09-11T13:26:16.027571+06:00"
+  }
 }
