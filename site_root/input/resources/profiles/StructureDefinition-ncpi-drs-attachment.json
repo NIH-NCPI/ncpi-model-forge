@@ -1,0 +1,60 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ncpi-drs-attachment",
+  "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-attachment",
+  "version": "0.2.1",
+  "name": "DRSAttachment",
+  "title": "DRS Attachment",
+  "status": "active",
+  "description": "A FHIR Attachment a DRS url.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "type": "Attachment",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Attachment",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Attachment",
+        "path": "Attachment",
+        "constraint": [
+          {
+            "key": "att-1",
+            "severity": "error",
+            "human": "If the Attachment has data, it SHALL have a contentType",
+            "expression": "data.empty() or contentType.exists()",
+            "xpath": "not(exists(f:data)) or exists(f:contentType)"
+          },
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          },
+          {
+            "key": "must-be-drs-uri",
+            "severity": "error",
+            "human": "attachment.url must start with ^drs://. A drs:// hostname-based URI, as defined in the DRS documentation, that tells clients how to access this object. The intent of this field is to make DRS objects self-contained, and therefore easier for clients to store and pass around.  For example, if you arrive at this DRS JSON by resolving a compact identifier-based DRS URI, the `self_uri` presents you with a hostname and properly encoded DRS ID for use in subsequent `access` endpoint calls.",
+            "expression": "$this.url.matches('^drs://.*')",
+            "source": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-attachment"
+          }
+        ]
+      }
+    ]
+  }
+}

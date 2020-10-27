@@ -1,0 +1,15 @@
+{
+  "resourceType": "Practitioner",
+  "id": "example-practitioner-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Practitioner"
+    ]
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-practitioner-id"
+    }
+  ]
+}

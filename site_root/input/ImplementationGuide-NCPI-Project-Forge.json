@@ -199,27 +199,75 @@
         }
       },
       {
-        "description": "NCPI Project Forge ValueSet phenotype-codes",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge ValueSet/phenotype-codes",
-        "reference": {
-          "reference": "ValueSet/phenotype-codes"
-        }
-      },
-      {
-        "description": "NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation",
-        "exampleBoolean": false,
-        "name": "NCPI Project Forge StructureDefinition/ncpi-phenotype",
-        "reference": {
-          "reference": "StructureDefinition/ncpi-phenotype"
-        }
-      },
-      {
-        "description": "NCPI Project Forge Observation ph-001, Profiles: ncpi-phenotype",
+        "description": "NCPI Project Forge DocumentReference example-document-reference-id, Profiles: ncpi-drs-document-reference",
         "exampleBoolean": true,
-        "name": "NCPI Project Forge Observation/ph-001",
+        "name": "NCPI Project Forge DocumentReference/example-document-reference-id",
         "reference": {
-          "reference": "Observation/ph-001"
+          "reference": "DocumentReference/example-document-reference-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Practitioner example-practitioner-id, Profiles: Practitioner",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Practitioner/example-practitioner-id",
+        "reference": {
+          "reference": "Practitioner/example-practitioner-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge PractitionerRole example-practitioner-role-id, Profiles: PractitionerRole",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge PractitionerRole/example-practitioner-role-id",
+        "reference": {
+          "reference": "PractitionerRole/example-practitioner-role-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Organization example-organization-id, Profiles: Organization",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Organization/example-organization-id",
+        "reference": {
+          "reference": "Organization/example-organization-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Specimen example-specimen-id, Profiles: Specimen",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Specimen/example-specimen-id",
+        "reference": {
+          "reference": "Specimen/example-specimen-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ResearchSubject example-research-subject-id, Profiles: ResearchSubject",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge ResearchSubject/example-research-subject-id",
+        "reference": {
+          "reference": "ResearchSubject/example-research-subject-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Task example-task-id, Profiles: Task",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Task/example-task-id",
+        "reference": {
+          "reference": "Task/example-task-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ResearchStudy example-research-study-id, Profiles: ResearchStudy",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge ResearchStudy/example-research-study-id",
+        "reference": {
+          "reference": "ResearchStudy/example-research-study-id"
+        }
+      },
+      {
+        "description": "NCPI Project Forge ValueSet phenotype-interpretation",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge ValueSet/phenotype-interpretation",
+        "reference": {
+          "reference": "ValueSet/phenotype-interpretation"
         }
       },
       {
@@ -231,11 +279,43 @@
         }
       },
       {
-        "description": "NCPI Project Forge ValueSet phenotype-interpretation",
+        "description": "NCPI Project Forge ValueSet phenotype-codes",
         "exampleBoolean": false,
-        "name": "NCPI Project Forge ValueSet/phenotype-interpretation",
+        "name": "NCPI Project Forge ValueSet/phenotype-codes",
         "reference": {
-          "reference": "ValueSet/phenotype-interpretation"
+          "reference": "ValueSet/phenotype-codes"
+        }
+      },
+      {
+        "description": "NCPI Project Forge Observation ph-001, Profiles: ncpi-phenotype",
+        "exampleBoolean": true,
+        "name": "NCPI Project Forge Observation/ph-001",
+        "reference": {
+          "reference": "Observation/ph-001"
+        }
+      },
+      {
+        "description": "NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge StructureDefinition/ncpi-phenotype",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-phenotype"
+        }
+      },
+      {
+        "description": "NCPI Project Forge StructureDefinition ncpi-drs-document-reference, Base: DocumentReference",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge StructureDefinition/ncpi-drs-document-reference",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-drs-document-reference"
+        }
+      },
+      {
+        "description": "NCPI Project Forge StructureDefinition ncpi-drs-attachment, Base: Attachment",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge StructureDefinition/ncpi-drs-attachment",
+        "reference": {
+          "reference": "StructureDefinition/ncpi-drs-attachment"
         }
       },
       {
