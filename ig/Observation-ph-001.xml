@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ph-001"/>
+  <meta>
+    <profile value="http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-phenotype"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: Observation|TEST-CMG|1|HP:0000076</p><p><b>status</b>: preliminary</p><p><b>code</b>: <span title="Codes: {http://purl.obolibrary.org/obo/hp.owl HP:0000076}">Present: Vesicoureteral reflux</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p><p><b>value</b>: <span title="Codes: {http://snomed.info/sct 373573001}">Phenotype Present</span></p><p><b>interpretation</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation POS}">Present</span></p></div>
+  </text>
+  <identifier>
+    <system value="urn:ncpi:unique-string"/>
+    <value value="Observation|TEST-CMG|1|HP:0000076"/>
+  </identifier>
+  <status value="preliminary"/>
+  <code>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <code value="HP:0000076"/>
+      <display value="Vesicoureteral reflux"/>
+    </coding>
+    <text value="Present: Vesicoureteral reflux"/>
+  </code>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="373573001"/>
+      <display value="Clinical finding present (situation)"/>
+    </coding>
+    <text value="Phenotype Present"/>
+  </valueCodeableConcept>
+  <interpretation>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"/>
+      <code value="POS"/>
+      <display value="Positive"/>
+    </coding>
+    <text value="Present"/>
+  </interpretation>
+</Observation>

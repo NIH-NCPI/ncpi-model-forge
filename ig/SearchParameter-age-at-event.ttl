@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event> a fhir:SearchParameter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "age-at-event"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>url</b>: <a href=\"http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event\">http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event</a></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: age-at-event</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: Oct 28, 2020 7:50:25 PM</p><p><b>publisher</b>: NCPI Project Forge</p><p><b>contact</b>: NCPI Project Forge: <a href=\"mailto:mailto:support@ncpi.org\">mailto:support@ncpi.org</a></p><p><b>description</b>: Searches NCPI Project Forge Conditions, Observations, and Specimens by age at event.</p><p><b>code</b>: age-at-event</p><p><b>base</b>: Patient, Condition, Observation, Specimen</p><p><b>type</b>: quantity</p><p><b>expression</b>: Patient.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Condition.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Observation.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Specimen.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value</p><p><b>target</b>: Patient, Condition, Observation, Specimen</p></div>"
+  ];
+  fhir:SearchParameter.url [ fhir:value "http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event"];
+  fhir:SearchParameter.version [ fhir:value "0.1.0"];
+  fhir:SearchParameter.name [ fhir:value "age-at-event"];
+  fhir:SearchParameter.status [ fhir:value "active"];
+  fhir:SearchParameter.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:SearchParameter.date [ fhir:value "2020-10-28T19:50:25+00:00"^^xsd:dateTime];
+  fhir:SearchParameter.publisher [ fhir:value "NCPI Project Forge"];
+  fhir:SearchParameter.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NCPI Project Forge" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ncpi.org" ]
+     ]
+  ];
+  fhir:SearchParameter.description [ fhir:value "Searches NCPI Project Forge Conditions, Observations, and Specimens by age at event."];
+  fhir:SearchParameter.code [ fhir:value "age-at-event"];
+  fhir:SearchParameter.base [
+     fhir:value "Patient";
+     fhir:index 0
+  ], [
+     fhir:value "Condition";
+     fhir:index 1
+  ], [
+     fhir:value "Observation";
+     fhir:index 2
+  ], [
+     fhir:value "Specimen";
+     fhir:index 3
+  ];
+  fhir:SearchParameter.type [ fhir:value "quantity"];
+  fhir:SearchParameter.expression [ fhir:value "Patient.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Condition.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Observation.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Specimen.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value"];
+  fhir:SearchParameter.target [
+     fhir:value "Patient";
+     fhir:index 0
+  ], [
+     fhir:value "Condition";
+     fhir:index 1
+  ], [
+     fhir:value "Observation";
+     fhir:index 2
+  ], [
+     fhir:value "Specimen";
+     fhir:index 3
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

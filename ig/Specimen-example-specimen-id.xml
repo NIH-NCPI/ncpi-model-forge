@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="example-specimen-id"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-specimen-id</p><p><b>status</b>: available</p><p><b>type</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}">Tissue</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p><h3>Collections</h3><table class="grid"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>Quantity</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2019-06-15</td><td>50 uL</td><td><span title="Codes: {http://snomed.info/sct 129314006}">Biopsy - action</span></td><td><span title="Codes: {http://snomed.info/sct 21483005}">Biopsy</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="urn:ncpi:unique-string"/>
+    <value value="example-specimen-id"/>
+  </identifier>
+  <status value="available"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v2-0487"/>
+      <code value="TISS"/>
+      <display value="Tissue"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <collection>
+    <collectedDateTime value="2019-06-15"/>
+    <quantity>
+      <value value="50"/>
+      <unit value="uL"/>
+    </quantity>
+    <method>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="129314006"/>
+        <display value="Biopsy - action"/>
+      </coding>
+    </method>
+    <bodySite>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="21483005"/>
+        <display value="Structure of central nervous system"/>
+      </coding>
+      <text value="Biopsy"/>
+    </bodySite>
+  </collection>
+</Specimen>

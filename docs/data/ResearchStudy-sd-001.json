@@ -1,9 +1,0 @@
-{
-    "resourceType":"ResearchStudy",
-    "id": "sd-001",
-    "meta": {
-        "profile": ["https://ncpi-api-fhir-service/StructureDefinition/ncpi-research-study"]
-    },
-    "status": "completed",
-    "title": "Study of Ewing's Sarcoma"
-}

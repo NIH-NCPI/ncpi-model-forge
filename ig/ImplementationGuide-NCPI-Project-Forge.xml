@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="NCPI-Project-Forge"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NCPI-Project-ForgeImplementationGuide</h2><p>The official URL for this implementation guide is: </p><pre>http://fhir.ncpi-project-forge.io/ImplementationGuide/NCPI-Project-Forge</pre><div><p>Documentation for the NCPI Project Forge FHIR data model</p>
+</div></div>
+  </text>
+  <url value="http://fhir.ncpi-project-forge.io/ImplementationGuide/NCPI-Project-Forge"/>
+  <version value="0.1.0"/>
+  <name value="NCPI-Project-ForgeImplementationGuide"/>
+  <title value="NCPI Project Forge Implementation Guide"/>
+  <status value="active"/>
+  <date value="2020-10-28T19:50:25+00:00"/>
+  <publisher value="NCPI Project Forge"/>
+  <contact>
+    <name value="NCPI Project Forge"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ncpi.org"/>
+    </telecom>
+  </contact>
+  <description value="Documentation for the NCPI Project Forge FHIR data model"/>
+  <packageId value="ncpi"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2020+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="CI Build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://fhir.ncpi-project-forge.io/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/detailed-ethnicity"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/detailed-ethnicity"/>
+      <description value="NCPI Project Forge ValueSet detailed-ethnicity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/detailed-race"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/detailed-race"/>
+      <description value="NCPI Project Forge ValueSet detailed-race"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cdcrec"/>
+      </reference>
+      <name value="NCPI Project Forge CodeSystem/cdcrec"/>
+      <description value="NCPI Project Forge CodeSystem cdcrec"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/omb-ethnicity-category"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/omb-ethnicity-category"/>
+      <description value="NCPI Project Forge ValueSet omb-ethnicity-category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/omb-race-category"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/omb-race-category"/>
+      <description value="NCPI Project Forge ValueSet omb-race-category"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/age-at-event"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/age-at-event"/>
+      <description value="NCPI Project Forge StructureDefinition age-at-event, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/us-core-race"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/us-core-race"/>
+      <description value="NCPI Project Forge StructureDefinition us-core-race, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/us-core-ethnicity"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/us-core-ethnicity"/>
+      <description value="NCPI Project Forge StructureDefinition us-core-ethnicity, Base: Extension"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/us-core-race"/>
+      </reference>
+      <name value="NCPI Project Forge SearchParameter/us-core-race"/>
+      <description value="NCPI Project Forge SearchParameter us-core-race"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/us-core-ethnicity"/>
+      </reference>
+      <name value="NCPI Project Forge SearchParameter/us-core-ethnicity"/>
+      <description value="NCPI Project Forge SearchParameter us-core-ethnicity"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/pt-001"/>
+      </reference>
+      <name value="NCPI Project Forge Patient/pt-001"/>
+      <description value="NCPI Project Forge Patient pt-001, Profiles: Patient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/fm-001"/>
+      </reference>
+      <name value="NCPI Project Forge Observation/fm-001"/>
+      <description value="NCPI Project Forge Observation fm-001, Profiles: ncpi-family-relationship"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/fm-004"/>
+      </reference>
+      <name value="NCPI Project Forge Observation/fm-004"/>
+      <description value="NCPI Project Forge Observation fm-004, Profiles: ncpi-family-relationship"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/pt-003"/>
+      </reference>
+      <name value="NCPI Project Forge Patient/pt-003"/>
+      <description value="NCPI Project Forge Patient pt-003, Profiles: Patient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/fm-002"/>
+      </reference>
+      <name value="NCPI Project Forge Observation/fm-002"/>
+      <description value="NCPI Project Forge Observation fm-002, Profiles: ncpi-family-relationship"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/fm-003"/>
+      </reference>
+      <name value="NCPI Project Forge Observation/fm-003"/>
+      <description value="NCPI Project Forge Observation fm-003, Profiles: ncpi-family-relationship"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/pt-002"/>
+      </reference>
+      <name value="NCPI Project Forge Patient/pt-002"/>
+      <description value="NCPI Project Forge Patient pt-002, Profiles: Patient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ncpi-family-relationship"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/ncpi-family-relationship"/>
+      <description value="NCPI Project Forge StructureDefinition ncpi-family-relationship, Base: Observation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DocumentReference"/>
+      </extension>
+      <reference>
+        <reference value="DocumentReference/example-document-reference-id"/>
+      </reference>
+      <name value="NCPI Project Forge DocumentReference/example-document-reference-id"/>
+      <description value="NCPI Project Forge DocumentReference example-document-reference-id, Profiles: ncpi-drs-document-reference"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/example-practitioner-id"/>
+      </reference>
+      <name value="NCPI Project Forge Practitioner/example-practitioner-id"/>
+      <description value="NCPI Project Forge Practitioner example-practitioner-id, Profiles: Practitioner"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/example-practitioner-role-id"/>
+      </reference>
+      <name value="NCPI Project Forge PractitionerRole/example-practitioner-role-id"/>
+      <description value="NCPI Project Forge PractitionerRole example-practitioner-role-id, Profiles: PractitionerRole"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/example-organization-id"/>
+      </reference>
+      <name value="NCPI Project Forge Organization/example-organization-id"/>
+      <description value="NCPI Project Forge Organization example-organization-id, Profiles: Organization"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/example-specimen-id"/>
+      </reference>
+      <name value="NCPI Project Forge Specimen/example-specimen-id"/>
+      <description value="NCPI Project Forge Specimen example-specimen-id, Profiles: Specimen"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ResearchSubject"/>
+      </extension>
+      <reference>
+        <reference value="ResearchSubject/example-research-subject-id"/>
+      </reference>
+      <name value="NCPI Project Forge ResearchSubject/example-research-subject-id"/>
+      <description value="NCPI Project Forge ResearchSubject example-research-subject-id, Profiles: ResearchSubject"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Task"/>
+      </extension>
+      <reference>
+        <reference value="Task/example-task-id"/>
+      </reference>
+      <name value="NCPI Project Forge Task/example-task-id"/>
+      <description value="NCPI Project Forge Task example-task-id, Profiles: Task"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ResearchStudy"/>
+      </extension>
+      <reference>
+        <reference value="ResearchStudy/example-research-study-id"/>
+      </reference>
+      <name value="NCPI Project Forge ResearchStudy/example-research-study-id"/>
+      <description value="NCPI Project Forge ResearchStudy example-research-study-id, Profiles: ResearchStudy"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/phenotype-interpretation"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/phenotype-interpretation"/>
+      <description value="NCPI Project Forge ValueSet phenotype-interpretation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/phenotype-observation-codes"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/phenotype-observation-codes"/>
+      <description value="NCPI Project Forge ValueSet phenotype-observation-codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/phenotype-codes"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/phenotype-codes"/>
+      <description value="NCPI Project Forge ValueSet phenotype-codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/ph-001"/>
+      </reference>
+      <name value="NCPI Project Forge Observation/ph-001"/>
+      <description value="NCPI Project Forge Observation ph-001, Profiles: ncpi-phenotype"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ncpi-phenotype"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/ncpi-phenotype"/>
+      <description value="NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ncpi-drs-document-reference"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/ncpi-drs-document-reference"/>
+      <description value="NCPI Project Forge StructureDefinition ncpi-drs-document-reference, Base: DocumentReference"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:complex-type"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ncpi-drs-attachment"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/ncpi-drs-attachment"/>
+      <description value="NCPI Project Forge StructureDefinition ncpi-drs-attachment, Base: Attachment"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/age-at-event"/>
+      </reference>
+      <name value="NCPI Project Forge SearchParameter/age-at-event"/>
+      <description value="NCPI Project Forge SearchParameter age-at-event"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/dg-001"/>
+      </reference>
+      <name value="NCPI Project Forge Condition/dg-001"/>
+      <description value="NCPI Project Forge Condition dg-001, Profiles: ncpi-disease"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ncpi-disease"/>
+      </reference>
+      <name value="NCPI Project Forge StructureDefinition/ncpi-disease"/>
+      <description value="NCPI Project Forge StructureDefinition ncpi-disease, Base: Condition"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/disease-codes"/>
+      </reference>
+      <name value="NCPI Project Forge ValueSet/disease-codes"/>
+      <description value="NCPI Project Forge ValueSet disease-codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="NCPI Project Forge Implementation Guide"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/search"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources/terminology"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

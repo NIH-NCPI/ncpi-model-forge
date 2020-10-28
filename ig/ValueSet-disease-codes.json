@@ -1,0 +1,35 @@
+{
+  "resourceType": "ValueSet",
+  "id": "disease-codes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://purl.obolibrary.org/obo/ncit.owl</code></li></ul></div>"
+  },
+  "url": "http://fhir.ncpi-project-forge.io/ValueSet/disease-codes",
+  "version": "0.1.0",
+  "name": "disease-codes",
+  "title": "Disease Codes",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-10-28T19:50:25+00:00",
+  "publisher": "NCPI Project Forge",
+  "contact": [
+    {
+      "name": "NCPI Project Forge",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ncpi.org"
+        }
+      ]
+    }
+  ],
+  "description": "This value set includes all codes from NCIt (NCI Thesaurus).",
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/ncit.owl"
+      }
+    ]
+  }
+}

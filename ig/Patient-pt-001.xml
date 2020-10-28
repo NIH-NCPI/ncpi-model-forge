@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="pt-001"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/Patient"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><blockquote><p><b>US Core Ethnicity Extension</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2135-2}">Hispanic or Latino</span></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: Hispanic or Latino</p></blockquote><blockquote><p><b>US Core Race Extension</b></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: <span title="{urn:oid:2.16.840.1.113883.6.238 2106-3}">White</span></p><h3>Urls</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>value</b>: White</p></blockquote><p><b>identifier</b>: id: 14999</p><p><b>name</b>: Mariah Abigail Smith(OFFICIAL)</p><p><b>telecom</b>: ph: (555) 555-5555(HOME)</p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2019-01-01</p><p><b>address</b>: 3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Relationship</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td><td><b>Gender</b></td></tr><tr><td>*</td><td><span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0131 C}">Father</span></td><td>John Samuel Smith(OFFICIAL)</td><td>ph: (555) 555-5555(HOME)</td><td>3401 Civic Center Blvd., Philadelphia, PA 19104(HOME)</td><td>male</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+    <extension url="ombCategory">
+      <valueCoding>
+        <system value="urn:oid:2.16.840.1.113883.6.238"/>
+        <code value="2135-2"/>
+        <display value="Hispanic or Latino"/>
+      </valueCoding>
+    </extension>
+    <extension url="text">
+      <valueString value="Hispanic or Latino"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+    <extension url="ombCategory">
+      <valueCoding>
+        <system value="urn:oid:2.16.840.1.113883.6.238"/>
+        <code value="2106-3"/>
+        <display value="White"/>
+      </valueCoding>
+    </extension>
+    <extension url="text">
+      <valueString value="White"/>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="https://kf-api-dataservice.kidsfirstdrc.org/participants?study_id=SD_PREASA7S"/>
+    <value value="14999"/>
+  </identifier>
+  <name>
+    <use value="official"/>
+    <text value="Mariah Abigail Smith"/>
+    <family value="Smith"/>
+    <given value="Mariah"/>
+    <given value="Abigail"/>
+  </name>
+  <telecom>
+    <system value="phone"/>
+    <value value="(555) 555-5555"/>
+    <use value="home"/>
+    <rank value="1"/>
+  </telecom>
+  <gender value="female"/>
+  <birthDate value="2019-01-01"/>
+  <address>
+    <use value="home"/>
+    <type value="both"/>
+    <text value="3401 Civic Center Blvd., Philadelphia, PA 19104"/>
+    <line value="3401 Civic Center Blvd."/>
+    <city value="Philadelphia"/>
+    <state value="PA"/>
+    <postalCode value="19104"/>
+  </address>
+  <contact>
+    <relationship>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+        <code value="C"/>
+        <display value="Emergency Contact"/>
+      </coding>
+      <text value="Father"/>
+    </relationship>
+    <name>
+      <use value="official"/>
+      <text value="John Samuel Smith"/>
+      <family value="Smith"/>
+      <given value="John"/>
+      <given value="Samuel"/>
+    </name>
+    <telecom>
+      <system value="phone"/>
+      <value value="(555) 555-5555"/>
+      <use value="home"/>
+      <rank value="1"/>
+    </telecom>
+    <address>
+      <use value="home"/>
+      <type value="both"/>
+      <text value="3401 Civic Center Blvd., Philadelphia, PA 19104"/>
+      <line value="3401 Civic Center Blvd."/>
+      <city value="Philadelphia"/>
+      <state value="PA"/>
+      <postalCode value="19104"/>
+    </address>
+    <gender value="male"/>
+  </contact>
+</Patient>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Task xmlns="http://hl7.org/fhir">
+  <id value="example-task-id"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/Task"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-task-id</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Inputs</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: ">Specimen</span></td><td><a href="Specimen-example-specimen-id.html">Generated Summary: id: example-specimen-id; status: available; <span title="Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}">Tissue</span></a></td></tr></table><h3>Outputs</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title="Codes: ">DocumentReference</span></td><td><a href="DocumentReference-example-document-reference-id.html">Generated Summary: id: example-document-reference-id; status: current</a></td></tr></table></div>
+  </text>
+  <identifier>
+    <system value="urn:ncpi:unique-string"/>
+    <value value="example-task-id"/>
+  </identifier>
+  <status value="completed"/>
+  <intent value="order"/>
+  <input>
+    <type>
+      <coding>
+        <code value="Specimen"/>
+      </coding>
+    </type>
+    <valueReference>
+      <reference value="Specimen/example-specimen-id"/>
+    </valueReference>
+  </input>
+  <output>
+    <type>
+      <coding>
+        <code value="DocumentReference"/>
+      </coding>
+    </type>
+    <valueReference>
+      <reference value="DocumentReference/example-document-reference-id"/>
+    </valueReference>
+  </output>
+</Task>

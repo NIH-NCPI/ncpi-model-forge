@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "example-practitioner-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Practitioner"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-practitioner-id</p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-practitioner-id"
+    }
+  ]
+}

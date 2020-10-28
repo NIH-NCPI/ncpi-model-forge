@@ -1,0 +1,25 @@
+{
+  "resourceType": "PractitionerRole",
+  "id": "example-practitioner-role-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/PractitionerRole"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-practitioner-role-id</p><p><b>practitioner</b>: <a href=\"Practitioner-example-practitioner-id.html\">Generated Summary: id: example-practitioner-id</a></p><p><b>organization</b>: <a href=\"Organization-example-organization-id.html\">Generated Summary: id: example-organization-id; name: Example Medical School</a></p></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-practitioner-role-id"
+    }
+  ],
+  "practitioner": {
+    "reference": "Practitioner/example-practitioner-id"
+  },
+  "organization": {
+    "reference": "Organization/example-organization-id"
+  }
+}

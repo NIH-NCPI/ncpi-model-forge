@@ -1,0 +1,152 @@
+[
+  {
+    "id": "NCPI-Project-Forge",
+    "type": "ImplementationGuide",
+    "url": "http://fhir.ncpi-project-forge.io/ImplementationGuide/NCPI-Project-Forge",
+    "version": "0.1.0",
+    "name": "NCPI-Project-ForgeImplementationGuide"
+  },
+  {
+    "id": "age-at-event",
+    "type": "SearchParameter",
+    "url": "http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event",
+    "version": "0.1.0",
+    "name": "age-at-event"
+  },
+  {
+    "id": "age-at-event",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event",
+    "version": "0.1.0",
+    "name": "age-at-event"
+  },
+  {
+    "id": "ncpi-disease",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-disease",
+    "version": "0.1.0",
+    "name": "ncpi-disease"
+  },
+  {
+    "id": "ncpi-drs-attachment",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-attachment",
+    "version": "0.1.0",
+    "name": "DRSAttachment"
+  },
+  {
+    "id": "ncpi-drs-document-reference",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-document-reference",
+    "version": "0.1.0",
+    "name": "DRSDocumentReference"
+  },
+  {
+    "id": "ncpi-family-relationship",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship",
+    "version": "0.1.0",
+    "name": "ncpi-family-relationship"
+  },
+  {
+    "id": "ncpi-phenotype",
+    "type": "StructureDefinition",
+    "url": "http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-phenotype",
+    "version": "0.1.0",
+    "name": "ncpi-phenotype"
+  },
+  {
+    "id": "disease-codes",
+    "type": "ValueSet",
+    "url": "http://fhir.ncpi-project-forge.io/ValueSet/disease-codes",
+    "version": "0.1.0",
+    "name": "disease-codes"
+  },
+  {
+    "id": "phenotype-codes",
+    "type": "ValueSet",
+    "url": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-codes",
+    "version": "0.1.0",
+    "name": "phenotype-codes"
+  },
+  {
+    "id": "phenotype-interpretation",
+    "type": "ValueSet",
+    "url": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-interpretation",
+    "version": "0.1.0",
+    "name": "phenotype-interpretation"
+  },
+  {
+    "id": "phenotype-observation-codes",
+    "type": "ValueSet",
+    "url": "http://fhir.ncpi-project-forge.io/ValueSet/phenotype-observation-codes",
+    "version": "0.1.0",
+    "name": "phenotype-observation-codes"
+  },
+  {
+    "id": "us-core-ethnicity",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity",
+    "version": "0.1.0",
+    "name": "USCoreEthnicity"
+  },
+  {
+    "id": "us-core-race",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/core/SearchParameter/us-core-race",
+    "version": "0.1.0",
+    "name": "USCoreRace"
+  },
+  {
+    "id": "us-core-ethnicity",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity",
+    "version": "0.1.0",
+    "name": "USCoreEthnicityExtension"
+  },
+  {
+    "id": "us-core-race",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race",
+    "version": "0.1.0",
+    "name": "USCoreRaceExtension"
+  },
+  {
+    "id": "detailed-ethnicity",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/core/ValueSet/detailed-ethnicity",
+    "version": "0.1.0",
+    "name": "DetailedEthnicity"
+  },
+  {
+    "id": "detailed-race",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/core/ValueSet/detailed-race",
+    "version": "0.1.0",
+    "name": "DetailedRace"
+  },
+  {
+    "id": "omb-ethnicity-category",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/core/ValueSet/omb-ethnicity-category",
+    "version": "0.1.0",
+    "name": "OmbEthnicityCategories"
+  },
+  {
+    "id": "omb-race-category",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/us/core/ValueSet/omb-race-category",
+    "version": "0.1.0",
+    "name": "OmbRaceCategories",
+    "oids": [
+      "2.16.840.1.113883.4.642.2.575"
+    ]
+  },
+  {
+    "id": "cdcrec",
+    "type": "CodeSystem",
+    "url": "urn:oid:2.16.840.1.113883.6.238",
+    "version": "0.1.0",
+    "name": "RaceAndEthnicityCDC"
+  }
+]

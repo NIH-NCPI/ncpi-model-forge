@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/Specimen/example-specimen-id> a fhir:Specimen;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-specimen-id"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/Specimen";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/Specimen>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-specimen-id</p><p><b>status</b>: available</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}\">Tissue</span></p><p><b>subject</b>: <a href=\"Patient-pt-001.html\">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p><h3>Collections</h3><table class=\"grid\"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>Quantity</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2019-06-15</td><td>50 uL</td><td><span title=\"Codes: {http://snomed.info/sct 129314006}\">Biopsy - action</span></td><td><span title=\"Codes: {http://snomed.info/sct 21483005}\">Biopsy</span></td></tr></table></div>"
+  ];
+  fhir:Specimen.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ncpi:unique-string" ];
+     fhir:Identifier.value [ fhir:value "example-specimen-id" ]
+  ];
+  fhir:Specimen.status [ fhir:value "available"];
+  fhir:Specimen.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v2-0487" ];
+       fhir:Coding.code [ fhir:value "TISS" ];
+       fhir:Coding.display [ fhir:value "Tissue" ]
+     ]
+  ];
+  fhir:Specimen.subject [
+     fhir:link <http://fhir.ncpi-project-forge.io/Patient/pt-001>;
+     fhir:Reference.reference [ fhir:value "Patient/pt-001" ]
+  ];
+  fhir:Specimen.collection [
+     fhir:Specimen.collection.collectedDateTime [ fhir:value "2019-06-15"^^xsd:date ];
+     fhir:Specimen.collection.quantity [
+       fhir:Quantity.value [ fhir:value "50"^^xsd:decimal ];
+       fhir:Quantity.unit [ fhir:value "uL" ]
+     ];
+     fhir:Specimen.collection.method [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:129314006;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "129314006" ];
+         fhir:Coding.display [ fhir:value "Biopsy - action" ]
+       ]
+     ];
+     fhir:Specimen.collection.bodySite [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         a sct:21483005;
+         fhir:Coding.system [ fhir:value "http://snomed.info/sct" ];
+         fhir:Coding.code [ fhir:value "21483005" ];
+         fhir:Coding.display [ fhir:value "Structure of central nervous system" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Biopsy" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/Specimen/example-specimen-id.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

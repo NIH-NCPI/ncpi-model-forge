@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/Task/example-task-id> a fhir:Task;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "example-task-id"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/StructureDefinition/Task";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/Task>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-task-id</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Inputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">Specimen</span></td><td><a href=\"Specimen-example-specimen-id.html\">Generated Summary: id: example-specimen-id; status: available; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}\">Tissue</span></a></td></tr></table><h3>Outputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">DocumentReference</span></td><td><a href=\"DocumentReference-example-document-reference-id.html\">Generated Summary: id: example-document-reference-id; status: current</a></td></tr></table></div>"
+  ];
+  fhir:Task.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "urn:ncpi:unique-string" ];
+     fhir:Identifier.value [ fhir:value "example-task-id" ]
+  ];
+  fhir:Task.status [ fhir:value "completed"];
+  fhir:Task.intent [ fhir:value "order"];
+  fhir:Task.input [
+     fhir:index 0;
+     fhir:Task.input.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "Specimen" ]
+       ]
+     ];
+     fhir:Task.input.valueReference [
+       fhir:link <http://fhir.ncpi-project-forge.io/Specimen/example-specimen-id>;
+       fhir:Reference.reference [ fhir:value "Specimen/example-specimen-id" ]
+     ]
+  ];
+  fhir:Task.output [
+     fhir:index 0;
+     fhir:Task.output.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.code [ fhir:value "DocumentReference" ]
+       ]
+     ];
+     fhir:Task.output.valueReference [
+       fhir:link <http://fhir.ncpi-project-forge.io/DocumentReference/example-document-reference-id>;
+       fhir:Reference.reference [ fhir:value "DocumentReference/example-document-reference-id" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/Task/example-task-id.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="fm-001"/>
+  <meta>
+    <profile value="http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p></p><p><b>code</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode FAMMEMB}">family member</span></p><p><b>subject</b>: <a href="Patient-pt-001.html">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p><p><b>focus</b>: <a href="Patient-pt-002.html">Generated Summary: id: 15000; gender: female</a></p><p><b>value</b>: <span title="Codes: {http://terminology.hl7.org/CodeSystem/v3-RoleCode CHILD}">Child</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="FAMMEMB"/>
+      <display value="family member"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/pt-001"/>
+  </subject>
+  <focus>
+    <reference value="Patient/pt-002"/>
+  </focus>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="CHILD"/>
+      <display value="child"/>
+    </coding>
+    <text value="Child"/>
+  </valueCodeableConcept>
+</Observation>

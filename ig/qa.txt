@@ -1,0 +1,159 @@
+﻿NCPI-Project-ForgeImplementationGuide : Validation Results
+=========================================
+
+err = 0, warn = 16, info = 11
+IG Publisher Version: 1.1.35
+Generated Wed Oct 28 19:54:37 UTC 2020. FHIR version 4.0.1 for ncpi#0.1.0 (canonical = http://fhir.ncpi-project-forge.io)
+
+ Build Errors : 1 / 1 / 0
+ /data/input/ImplementationGuide-NCPI-Project-Forge : 0 / 1 / 1
+ /data/input/resources/examples/condition-dg-001 : 0 / 1 / 3
+ /data/input/resources/examples/documentreference-example-document-reference-id : 0 / 0 / 2
+ /data/input/resources/examples/observation-fm-001 : 0 / 0 / 2
+ /data/input/resources/examples/observation-fm-002 : 0 / 0 / 2
+ /data/input/resources/examples/observation-fm-003 : 0 / 0 / 2
+ /data/input/resources/examples/observation-fm-004 : 0 / 0 / 2
+ /data/input/resources/examples/observation-ph-001 : 0 / 1 / 3
+ /data/input/resources/examples/organization-example-organization-id : 0 / 0 / 1
+ /data/input/resources/examples/patient-pt-001 : 0 / 0 / 1
+ /data/input/resources/examples/patient-pt-002 : 0 / 0 / 1
+ /data/input/resources/examples/patient-pt-003 : 0 / 0 / 1
+ /data/input/resources/examples/practitioner-example-practitioner-id : 0 / 0 / 1
+ /data/input/resources/examples/practitionerrole-example-practitioner-role-id : 0 / 0 / 1
+ /data/input/resources/examples/researchstudy-example-research-study-id : 0 / 0 / 1
+ /data/input/resources/examples/researchsubject-example-research-subject-id : 0 / 0 / 1
+ /data/input/resources/examples/specimen-example-specimen-id : 0 / 0 / 1
+ /data/input/resources/examples/task-example-task-id : 0 / 2 / 1
+ /data/input/resources/extensions/structuredefinition-age-at-event : 0 / 1 / 1
+ /data/input/resources/extensions/structuredefinition-us-core-ethnicity : 0 / 0 / 2
+ /data/input/resources/extensions/structuredefinition-us-core-race : 0 / 0 / 2
+ /data/input/resources/profiles/structuredefinition-ncpi-disease : 0 / 1 / 1
+ /data/input/resources/profiles/structuredefinition-ncpi-drs-attachment : 0 / 0 / 1
+ /data/input/resources/profiles/structuredefinition-ncpi-drs-document-reference : 0 / 0 / 1
+ /data/input/resources/profiles/structuredefinition-ncpi-family-relationship : 0 / 1 / 1
+ /data/input/resources/profiles/structuredefinition-ncpi-phenotype : 0 / 1 / 1
+ /data/input/resources/search/searchparameter-age-at-event : 0 / 1 / 1
+ /data/input/resources/search/searchparameter-us-core-ethnicity : 0 / 0 / 2
+ /data/input/resources/search/searchparameter-us-core-race : 0 / 0 / 2
+ /data/input/resources/terminology/codesystem-cdcrec : 0 / 0 / 2
+ /data/input/resources/terminology/valueset-detailed-ethnicity : 0 / 0 / 2
+ /data/input/resources/terminology/valueset-detailed-race : 0 / 0 / 2
+ /data/input/resources/terminology/valueset-disease-codes : 0 / 1 / 1
+ /data/input/resources/terminology/valueset-omb-ethnicity-category : 0 / 0 / 2
+ /data/input/resources/terminology/valueset-omb-race-category : 0 / 0 / 2
+ /data/input/resources/terminology/valueset-phenotype-codes : 0 / 1 / 1
+ /data/input/resources/terminology/valueset-phenotype-interpretation : 0 / 1 / 1
+ /data/input/resources/terminology/valueset-phenotype-observation-codes : 0 / 2 / 1
+</table>
+== n/a ==
+WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be ncpi
+ERROR: /data/output/searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21: The link 'history.html' for "History" cannot be resolved
+== /data/input/ImplementationGuide-NCPI-Project-Forge.json ==
+INFORMATION: ImplementationGuide/NCPI-Project-Forge: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+WARNING: ImplementationGuide/NCPI-Project-Forge: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/examples/condition-dg-001.json ==
+INFORMATION: Condition/dg-001: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+INFORMATION: Condition/dg-001: Condition.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/ncit.owl' is unknown so the code cannot be validated
+INFORMATION: Condition/dg-001: Condition: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-disease - listed in meta
+WARNING: Condition/dg-001: Condition.code: [Unable to determine whether the provided codes are in the value set http://fhir.ncpi-project-forge.io/ValueSet/disease-codes because the value set or code system is not known to the validator]
+== /data/input/resources/examples/documentreference-example-document-reference-id.json ==
+INFORMATION: DocumentReference/example-document-reference-id: DocumentReference: Validate resource against profile http://hl7.org/fhir/StructureDefinition/DocumentReference
+INFORMATION: DocumentReference/example-document-reference-id: DocumentReference: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-drs-document-reference - listed in meta
+== /data/input/resources/examples/observation-fm-001.json ==
+INFORMATION: Observation/fm-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Observation/fm-001: Observation: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship - listed in meta
+== /data/input/resources/examples/observation-fm-002.json ==
+INFORMATION: Observation/fm-002: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Observation/fm-002: Observation: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship - listed in meta
+== /data/input/resources/examples/observation-fm-003.json ==
+INFORMATION: Observation/fm-003: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Observation/fm-003: Observation: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship - listed in meta
+== /data/input/resources/examples/observation-fm-004.json ==
+INFORMATION: Observation/fm-004: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Observation/fm-004: Observation: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-family-relationship - listed in meta
+== /data/input/resources/examples/observation-ph-001.json ==
+INFORMATION: Observation/ph-001: Observation: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Observation/ph-001: Observation.code.coding[0]: Code System URI 'http://purl.obolibrary.org/obo/hp.owl' is unknown so the code cannot be validated
+INFORMATION: Observation/ph-001: Observation: Validate resource against profile http://fhir.ncpi-project-forge.io/StructureDefinition/ncpi-phenotype - listed in meta
+WARNING: Observation/ph-001: Observation.code: [Unable to determine whether the provided codes are in the value set http://fhir.ncpi-project-forge.io/ValueSet/phenotype-codes because the value set or code system is not known to the validator]
+== /data/input/resources/examples/organization-example-organization-id.json ==
+INFORMATION: Organization/example-organization-id: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+== /data/input/resources/examples/patient-pt-001.json ==
+INFORMATION: Patient/pt-001: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+== /data/input/resources/examples/patient-pt-002.json ==
+INFORMATION: Patient/pt-002: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+== /data/input/resources/examples/patient-pt-003.json ==
+INFORMATION: Patient/pt-003: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+== /data/input/resources/examples/practitioner-example-practitioner-id.json ==
+INFORMATION: Practitioner/example-practitioner-id: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+== /data/input/resources/examples/practitionerrole-example-practitioner-role-id.json ==
+INFORMATION: PractitionerRole/example-practitioner-role-id: PractitionerRole: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PractitionerRole
+== /data/input/resources/examples/researchstudy-example-research-study-id.json ==
+INFORMATION: ResearchStudy/example-research-study-id: ResearchStudy: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ResearchStudy
+== /data/input/resources/examples/researchsubject-example-research-subject-id.json ==
+INFORMATION: ResearchSubject/example-research-subject-id: ResearchSubject: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ResearchSubject
+== /data/input/resources/examples/specimen-example-specimen-id.json ==
+INFORMATION: Specimen/example-specimen-id: Specimen: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Specimen
+== /data/input/resources/examples/task-example-task-id.json ==
+INFORMATION: Task/example-task-id: Task: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Task
+WARNING: Task/example-task-id: Task.input[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+WARNING: Task/example-task-id: Task.output[0].type.coding[0]: A code with no system has no defined meaning. A system should be provided
+== /data/input/resources/extensions/structuredefinition-age-at-event.json ==
+INFORMATION: StructureDefinition/age-at-event: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/age-at-event: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/extensions/structuredefinition-us-core-ethnicity.json ==
+INFORMATION: StructureDefinition/us-core-ethnicity: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/us-core-ethnicity: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/extensions/structuredefinition-us-core-race.json ==
+INFORMATION: StructureDefinition/us-core-race: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/us-core-race: StructureDefinition.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/profiles/structuredefinition-ncpi-disease.json ==
+INFORMATION: StructureDefinition/ncpi-disease: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/ncpi-disease: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/profiles/structuredefinition-ncpi-drs-attachment.json ==
+INFORMATION: StructureDefinition/ncpi-drs-attachment: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /data/input/resources/profiles/structuredefinition-ncpi-drs-document-reference.json ==
+INFORMATION: StructureDefinition/ncpi-drs-document-reference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== /data/input/resources/profiles/structuredefinition-ncpi-family-relationship.json ==
+INFORMATION: StructureDefinition/ncpi-family-relationship: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/ncpi-family-relationship: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/profiles/structuredefinition-ncpi-phenotype.json ==
+INFORMATION: StructureDefinition/ncpi-phenotype: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition/ncpi-phenotype: StructureDefinition: sdf-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/search/searchparameter-age-at-event.json ==
+INFORMATION: SearchParameter/age-at-event: SearchParameter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter
+WARNING: SearchParameter/age-at-event: SearchParameter: spd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/search/searchparameter-us-core-ethnicity.json ==
+INFORMATION: SearchParameter/us-core-ethnicity: SearchParameter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter
+INFORMATION: SearchParameter/us-core-ethnicity: SearchParameter.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/search/searchparameter-us-core-race.json ==
+INFORMATION: SearchParameter/us-core-race: SearchParameter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/SearchParameter
+INFORMATION: SearchParameter/us-core-race: SearchParameter.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/codesystem-cdcrec.json ==
+INFORMATION: CodeSystem/cdcrec: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+INFORMATION: CodeSystem/cdcrec: CodeSystem.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/valueset-detailed-ethnicity.json ==
+INFORMATION: ValueSet/detailed-ethnicity: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/detailed-ethnicity: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/valueset-detailed-race.json ==
+INFORMATION: ValueSet/detailed-race: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/detailed-race: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/valueset-disease-codes.json ==
+INFORMATION: ValueSet/disease-codes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/disease-codes: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/valueset-omb-ethnicity-category.json ==
+INFORMATION: ValueSet/omb-ethnicity-category: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/omb-ethnicity-category: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/valueset-omb-race-category.json ==
+INFORMATION: ValueSet/omb-race-category: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+INFORMATION: ValueSet/omb-race-category: ValueSet.jurisdiction[0].coding[0]: Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated
+== /data/input/resources/terminology/valueset-phenotype-codes.json ==
+INFORMATION: ValueSet/phenotype-codes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/phenotype-codes: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/valueset-phenotype-interpretation.json ==
+INFORMATION: ValueSet/phenotype-interpretation: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/phenotype-interpretation: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== /data/input/resources/terminology/valueset-phenotype-observation-codes.json ==
+INFORMATION: ValueSet/phenotype-observation-codes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+WARNING: ValueSet/phenotype-observation-codes: ValueSet: vsd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: ValueSet/phenotype-observation-codes: ValueSet.compose[0].include[0].concept[1]: The code 373572006 is not valid in the system http://snomed.info/sct

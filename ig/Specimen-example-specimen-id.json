@@ -1,0 +1,58 @@
+{
+  "resourceType": "Specimen",
+  "id": "example-specimen-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Specimen"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-specimen-id</p><p><b>status</b>: available</p><p><b>type</b>: <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}\">Tissue</span></p><p><b>subject</b>: <a href=\"Patient-pt-001.html\">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p><h3>Collections</h3><table class=\"grid\"><tr><td>-</td><td><b>Collected[x]</b></td><td><b>Quantity</b></td><td><b>Method</b></td><td><b>BodySite</b></td></tr><tr><td>*</td><td>2019-06-15</td><td>50 uL</td><td><span title=\"Codes: {http://snomed.info/sct 129314006}\">Biopsy - action</span></td><td><span title=\"Codes: {http://snomed.info/sct 21483005}\">Biopsy</span></td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-specimen-id"
+    }
+  ],
+  "status": "available",
+  "type": {
+    "coding": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0487",
+        "code": "TISS",
+        "display": "Tissue"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/pt-001"
+  },
+  "collection": {
+    "collectedDateTime": "2019-06-15",
+    "quantity": {
+      "value": 50,
+      "unit": "uL"
+    },
+    "method": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "129314006",
+          "display": "Biopsy - action"
+        }
+      ]
+    },
+    "bodySite": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "21483005",
+          "display": "Structure of central nervous system"
+        }
+      ],
+      "text": "Biopsy"
+    }
+  }
+}

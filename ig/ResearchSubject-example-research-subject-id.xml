@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchSubject xmlns="http://hl7.org/fhir">
+  <id value="example-research-subject-id"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/ResearchSubject"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-research-subject-id</p><p><b>status</b>: on-study</p><p><b>study</b>: <a href="ResearchStudy-example-research-study-id.html">Generated Summary: id: example-research-study-id; title: my NCPI research study example; status: active</a></p><p><b>individual</b>: <a href="Patient-pt-001.html">Generated Summary: id: 14999; Mariah Abigail Smith(OFFICIAL); Phone: (555) 555-5555; gender: female; birthDate: 2019-01-01</a></p></div>
+  </text>
+  <identifier>
+    <system value="urn:ncpi:unique-string"/>
+    <value value="example-research-subject-id"/>
+  </identifier>
+  <status value="on-study"/>
+  <study>
+    <reference value="ResearchStudy/example-research-study-id"/>
+  </study>
+  <individual>
+    <reference value="Patient/pt-001"/>
+  </individual>
+</ResearchSubject>

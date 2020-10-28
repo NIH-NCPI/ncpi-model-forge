@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/SearchParameter/us-core-race> a fhir:SearchParameter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "us-core-race"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>url</b>: <a href=\"http://hl7.org/fhir/us/core/SearchParameter/us-core-race\">http://hl7.org/fhir/us/core/SearchParameter/us-core-race</a></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: USCoreRace</p><p><b>status</b>: active</p><p><b>date</b>: May 20, 2019 2:00:00 PM</p><p><b>publisher</b>: NCPI Project Forge</p><p><b>contact</b>: NCPI Project Forge: <a href=\"mailto:mailto:support@ncpi.org\">mailto:support@ncpi.org</a></p><p><b>description</b>: Returns patients with a race extension matching the specified code.</p><p><b>jurisdiction</b>: <span title=\"Codes: {urn:iso:std:iso:3166 US}\">United States of America</span></p><p><b>code</b>: race</p><p><b>base</b>: Patient</p><p><b>type</b>: token</p><p><b>expression</b>: Patient.extension.where(url = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-race').extension.value.code</p><p><b>xpath</b>: f:Patient/f:extension[@url='http://hl7.org/fhir/us/core/StructureDefinition/us-core-race']/f:extension/f:valueCoding/f:code/@value</p><p><b>xpathUsage</b>: normal</p><p><b>target</b>: Patient</p></div>"
+  ];
+  fhir:SearchParameter.url [ fhir:value "http://hl7.org/fhir/us/core/SearchParameter/us-core-race"];
+  fhir:SearchParameter.version [ fhir:value "0.1.0"];
+  fhir:SearchParameter.name [ fhir:value "USCoreRace"];
+  fhir:SearchParameter.status [ fhir:value "active"];
+  fhir:SearchParameter.date [ fhir:value "2019-05-21T00:00:00+10:00"^^xsd:dateTime];
+  fhir:SearchParameter.publisher [ fhir:value "NCPI Project Forge"];
+  fhir:SearchParameter.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "NCPI Project Forge" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "mailto:support@ncpi.org" ]
+     ]
+  ];
+  fhir:SearchParameter.description [ fhir:value "Returns patients with a race extension matching the specified code."];
+  fhir:SearchParameter.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ];
+       fhir:Coding.display [ fhir:value "United States of America" ]
+     ]
+  ];
+  fhir:SearchParameter.code [ fhir:value "race"];
+  fhir:SearchParameter.base [
+     fhir:value "Patient";
+     fhir:index 0
+  ];
+  fhir:SearchParameter.type [ fhir:value "token"];
+  fhir:SearchParameter.expression [ fhir:value "Patient.extension.where(url = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-race').extension.value.code"];
+  fhir:SearchParameter.xpath [ fhir:value "f:Patient/f:extension[@url='http://hl7.org/fhir/us/core/StructureDefinition/us-core-race']/f:extension/f:valueCoding/f:code/@value"];
+  fhir:SearchParameter.xpathUsage [ fhir:value "normal"];
+  fhir:SearchParameter.target [
+     fhir:value "Patient";
+     fhir:index 0
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://fhir.ncpi-project-forge.io/SearchParameter/us-core-race.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

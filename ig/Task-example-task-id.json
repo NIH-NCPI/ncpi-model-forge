@@ -1,0 +1,49 @@
+{
+  "resourceType": "Task",
+  "id": "example-task-id",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/StructureDefinition/Task"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-task-id</p><p><b>status</b>: completed</p><p><b>intent</b>: order</p><h3>Inputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">Specimen</span></td><td><a href=\"Specimen-example-specimen-id.html\">Generated Summary: id: example-specimen-id; status: available; <span title=\"Codes: {http://terminology.hl7.org/CodeSystem/v2-0487 TISS}\">Tissue</span></a></td></tr></table><h3>Outputs</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Value[x]</b></td></tr><tr><td>*</td><td><span title=\"Codes: \">DocumentReference</span></td><td><a href=\"DocumentReference-example-document-reference-id.html\">Generated Summary: id: example-document-reference-id; status: current</a></td></tr></table></div>"
+  },
+  "identifier": [
+    {
+      "system": "urn:ncpi:unique-string",
+      "value": "example-task-id"
+    }
+  ],
+  "status": "completed",
+  "intent": "order",
+  "input": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "Specimen"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "Specimen/example-specimen-id"
+      }
+    }
+  ],
+  "output": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "DocumentReference"
+          }
+        ]
+      },
+      "valueReference": {
+        "reference": "DocumentReference/example-document-reference-id"
+      }
+    }
+  ]
+}

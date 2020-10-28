@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>NCPI-PROJECT-FORGE\Artifacts Summary - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">NCPI Project Forge Implementation Guide</span><br/>0.1.0 - CI Build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li><a href="index.html">IG Home</a></li>
+  <li><a href="toc.html">Table of Contents</a></li>
+  <li><a href="artifacts.html">Artifact Index</a></li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
+      </b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <div id="segment-content">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">NCPI Project Forge Implementation Guide - Local Development build (v0.1.0). See the <a href="http://fhir.ncpi-project-forge.io/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Behavior: Search Parameters</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Data Type Profiles</a>
+      </li>
+      <li>
+         <a href="#4">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#7">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Behavior: Search Parameters </h3>
+   <p>
+    <p>These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-us-core-race.html"
+                     title="SearchParameter/us-core-race">NCPI Project Forge SearchParameter/us-core-race</a>
+               </td>
+               <td>
+<p>NCPI Project Forge SearchParameter us-core-race</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-us-core-ethnicity.html"
+                     title="SearchParameter/us-core-ethnicity">NCPI Project Forge SearchParameter/us-core-ethnicity</a>
+               </td>
+               <td>
+<p>NCPI Project Forge SearchParameter us-core-ethnicity</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-age-at-event.html"
+                     title="SearchParameter/age-at-event">NCPI Project Forge SearchParameter/age-at-event</a>
+               </td>
+               <td>
+<p>NCPI Project Forge SearchParameter age-at-event</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources that need to be complied with by conformant implementations</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ncpi-family-relationship.html"
+                     title="StructureDefinition/ncpi-family-relationship">NCPI Project Forge StructureDefinition/ncpi-family-relationship</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition ncpi-family-relationship, Base: Observation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ncpi-phenotype.html"
+                     title="StructureDefinition/ncpi-phenotype">NCPI Project Forge StructureDefinition/ncpi-phenotype</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition ncpi-phenotype, Base: Observation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ncpi-drs-document-reference.html"
+                     title="StructureDefinition/ncpi-drs-document-reference">NCPI Project Forge StructureDefinition/ncpi-drs-document-reference</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition ncpi-drs-document-reference, Base: DocumentReference</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ncpi-disease.html"
+                     title="StructureDefinition/ncpi-disease">NCPI Project Forge StructureDefinition/ncpi-disease</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition ncpi-disease, Base: Condition</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Data Type Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR data types that need to be complied with by conformant implementations</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ncpi-drs-attachment.html"
+                     title="StructureDefinition/ncpi-drs-attachment">NCPI Project Forge StructureDefinition/ncpi-drs-attachment</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition ncpi-drs-attachment, Base: Attachment</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types that need to be complied with by conformant implementations</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-age-at-event.html"
+                     title="StructureDefinition/age-at-event">NCPI Project Forge StructureDefinition/age-at-event</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition age-at-event, Base: Extension</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-us-core-race.html"
+                     title="StructureDefinition/us-core-race">NCPI Project Forge StructureDefinition/us-core-race</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition us-core-race, Base: Extension</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-us-core-ethnicity.html"
+                     title="StructureDefinition/us-core-ethnicity">NCPI Project Forge StructureDefinition/us-core-ethnicity</a>
+               </td>
+               <td>
+<p>NCPI Project Forge StructureDefinition us-core-ethnicity, Base: Extension</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming with this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-detailed-ethnicity.html"
+                     title="ValueSet/detailed-ethnicity">NCPI Project Forge ValueSet/detailed-ethnicity</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet detailed-ethnicity</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-detailed-race.html" title="ValueSet/detailed-race">NCPI Project Forge ValueSet/detailed-race</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet detailed-race</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-omb-ethnicity-category.html"
+                     title="ValueSet/omb-ethnicity-category">NCPI Project Forge ValueSet/omb-ethnicity-category</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet omb-ethnicity-category</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-omb-race-category.html"
+                     title="ValueSet/omb-race-category">NCPI Project Forge ValueSet/omb-race-category</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet omb-race-category</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-phenotype-interpretation.html"
+                     title="ValueSet/phenotype-interpretation">NCPI Project Forge ValueSet/phenotype-interpretation</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet phenotype-interpretation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-phenotype-observation-codes.html"
+                     title="ValueSet/phenotype-observation-codes">NCPI Project Forge ValueSet/phenotype-observation-codes</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet phenotype-observation-codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-phenotype-codes.html" title="ValueSet/phenotype-codes">NCPI Project Forge ValueSet/phenotype-codes</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet phenotype-codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-disease-codes.html" title="ValueSet/disease-codes">NCPI Project Forge ValueSet/disease-codes</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ValueSet disease-codes</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming with this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-cdcrec.html" title="CodeSystem/cdcrec">NCPI Project Forge CodeSystem/cdcrec</a>
+               </td>
+               <td>
+<p>NCPI Project Forge CodeSystem cdcrec</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="7"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-pt-001.html" title="Patient/pt-001">NCPI Project Forge Patient/pt-001</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Patient pt-001, Profiles: Patient</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-fm-001.html" title="Observation/fm-001">NCPI Project Forge Observation/fm-001</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Observation fm-001, Profiles: ncpi-family-relationship</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-fm-004.html" title="Observation/fm-004">NCPI Project Forge Observation/fm-004</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Observation fm-004, Profiles: ncpi-family-relationship</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-pt-003.html" title="Patient/pt-003">NCPI Project Forge Patient/pt-003</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Patient pt-003, Profiles: Patient</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-fm-002.html" title="Observation/fm-002">NCPI Project Forge Observation/fm-002</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Observation fm-002, Profiles: ncpi-family-relationship</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-fm-003.html" title="Observation/fm-003">NCPI Project Forge Observation/fm-003</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Observation fm-003, Profiles: ncpi-family-relationship</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Patient-pt-002.html" title="Patient/pt-002">NCPI Project Forge Patient/pt-002</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Patient pt-002, Profiles: Patient</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="DocumentReference-example-document-reference-id.html"
+                     title="DocumentReference/example-document-reference-id">NCPI Project Forge DocumentReference/example-document-reference-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge DocumentReference example-document-reference-id, Profiles: ncpi-drs-document-reference</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Practitioner-example-practitioner-id.html"
+                     title="Practitioner/example-practitioner-id">NCPI Project Forge Practitioner/example-practitioner-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Practitioner example-practitioner-id, Profiles: Practitioner</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PractitionerRole-example-practitioner-role-id.html"
+                     title="PractitionerRole/example-practitioner-role-id">NCPI Project Forge PractitionerRole/example-practitioner-role-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge PractitionerRole example-practitioner-role-id, Profiles: PractitionerRole</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-example-organization-id.html"
+                     title="Organization/example-organization-id">NCPI Project Forge Organization/example-organization-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Organization example-organization-id, Profiles: Organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Specimen-example-specimen-id.html"
+                     title="Specimen/example-specimen-id">NCPI Project Forge Specimen/example-specimen-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Specimen example-specimen-id, Profiles: Specimen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ResearchSubject-example-research-subject-id.html"
+                     title="ResearchSubject/example-research-subject-id">NCPI Project Forge ResearchSubject/example-research-subject-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ResearchSubject example-research-subject-id, Profiles: ResearchSubject</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Task-example-task-id.html" title="Task/example-task-id">NCPI Project Forge Task/example-task-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Task example-task-id, Profiles: Task</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ResearchStudy-example-research-study-id.html"
+                     title="ResearchStudy/example-research-study-id">NCPI Project Forge ResearchStudy/example-research-study-id</a>
+               </td>
+               <td>
+<p>NCPI Project Forge ResearchStudy example-research-study-id, Profiles: ResearchStudy</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Observation-ph-001.html" title="Observation/ph-001">NCPI Project Forge Observation/ph-001</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Observation ph-001, Profiles: ncpi-phenotype</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Condition-dg-001.html" title="Condition/dg-001">NCPI Project Forge Condition/dg-001</a>
+               </td>
+               <td>
+<p>NCPI Project Forge Condition dg-001, Profiles: ncpi-disease</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2020+ <a style="color: #81BEF7" href="mailto:support@ncpi.org">NCPI Project Forge</a>.  Package ncpi#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Oct 28, 2020 19:50+0000">2020-10-28</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

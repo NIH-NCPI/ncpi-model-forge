@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SearchParameter xmlns="http://hl7.org/fhir">
+  <id value="us-core-ethnicity"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>url</b>: <a href="http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity">http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity</a></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: USCoreEthnicity</p><p><b>status</b>: active</p><p><b>date</b>: May 20, 2019 2:00:00 PM</p><p><b>publisher</b>: NCPI Project Forge</p><p><b>contact</b>: NCPI Project Forge: <a href="mailto:mailto:support@ncpi.org">mailto:support@ncpi.org</a></p><p><b>description</b>: Returns patients with an ethnicity extension matching the specified code.</p><p><b>jurisdiction</b>: <span title="Codes: {urn:iso:std:iso:3166 US}">United States of America</span></p><p><b>code</b>: ethnicity</p><p><b>base</b>: Patient</p><p><b>type</b>: token</p><p><b>expression</b>: Patient.extension.where(url = 'http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity').extension.value.code</p><p><b>xpath</b>: f:Patient/f:extension[@url='http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity']/f:extension/f:valueCoding/f:code/@value</p><p><b>xpathUsage</b>: normal</p><p><b>target</b>: Patient</p></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/core/SearchParameter/us-core-ethnicity"/>
+  <version value="0.1.0"/>
+  <name value="USCoreEthnicity"/>
+  <status value="active"/>
+  <date value="2019-05-21T00:00:00+10:00"/>
+  <publisher value="NCPI Project Forge"/>
+  <contact>
+    <name value="NCPI Project Forge"/>
+    <telecom>
+      <system value="email"/>
+      <value value="mailto:support@ncpi.org"/>
+    </telecom>
+  </contact>
+  <description value="Returns patients with an ethnicity extension matching the specified code."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <code value="ethnicity"/>
+  <base value="Patient"/>
+  <type value="token"/>
+  <expression value="Patient.extension.where(url = &#39;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&#39;).extension.value.code"/>
+  <xpath value="f:Patient/f:extension[@url=&#39;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&#39;]/f:extension/f:valueCoding/f:code/@value"/>
+  <xpathUsage value="normal"/>
+  <target value="Patient"/>
+</SearchParameter>

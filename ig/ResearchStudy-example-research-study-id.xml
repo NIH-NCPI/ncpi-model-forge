@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ResearchStudy xmlns="http://hl7.org/fhir">
+  <id value="example-research-study-id"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/StructureDefinition/ResearchStudy"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><h3>Meta</h3><table class="grid"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>identifier</b>: id: example-research-study-id</p><p><b>title</b>: my NCPI research study example</p><p><b>status</b>: active</p><p><b>principalInvestigator</b>: <a href="PractitionerRole-example-practitioner-role-id.html">Generated Summary: id: example-practitioner-role-id</a></p></div>
+  </text>
+  <identifier>
+    <system value="urn:ncpi:unique-string"/>
+    <value value="example-research-study-id"/>
+  </identifier>
+  <title value="my NCPI research study example"/>
+  <status value="active"/>
+  <principalInvestigator>
+    <reference value="PractitionerRole/example-practitioner-role-id"/>
+  </principalInvestigator>
+</ResearchStudy>

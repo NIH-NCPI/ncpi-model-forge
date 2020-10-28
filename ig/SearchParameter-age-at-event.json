@@ -1,0 +1,42 @@
+{
+  "resourceType": "SearchParameter",
+  "id": "age-at-event",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><h3>Ids</h3><table class=\"grid\"><tr><td>-</td></tr><tr><td>*</td></tr></table><p><b>url</b>: <a href=\"http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event\">http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event</a></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: age-at-event</p><p><b>status</b>: active</p><p><b>experimental</b>: true</p><p><b>date</b>: Oct 28, 2020 7:50:25 PM</p><p><b>publisher</b>: NCPI Project Forge</p><p><b>contact</b>: NCPI Project Forge: <a href=\"mailto:mailto:support@ncpi.org\">mailto:support@ncpi.org</a></p><p><b>description</b>: Searches NCPI Project Forge Conditions, Observations, and Specimens by age at event.</p><p><b>code</b>: age-at-event</p><p><b>base</b>: Patient, Condition, Observation, Specimen</p><p><b>type</b>: quantity</p><p><b>expression</b>: Patient.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Condition.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Observation.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Specimen.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value</p><p><b>target</b>: Patient, Condition, Observation, Specimen</p></div>"
+  },
+  "url": "http://fhir.ncpi-project-forge.io/SearchParameter/age-at-event",
+  "version": "0.1.0",
+  "name": "age-at-event",
+  "status": "active",
+  "experimental": true,
+  "date": "2020-10-28T19:50:25+00:00",
+  "publisher": "NCPI Project Forge",
+  "contact": [
+    {
+      "name": "NCPI Project Forge",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mailto:support@ncpi.org"
+        }
+      ]
+    }
+  ],
+  "description": "Searches NCPI Project Forge Conditions, Observations, and Specimens by age at event.",
+  "code": "age-at-event",
+  "base": [
+    "Patient",
+    "Condition",
+    "Observation",
+    "Specimen"
+  ],
+  "type": "quantity",
+  "expression": "Patient.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Condition.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Observation.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value | Specimen.extension.where(url = 'http://fhir.ncpi-project-forge.io/StructureDefinition/age-at-event').value",
+  "target": [
+    "Patient",
+    "Condition",
+    "Observation",
+    "Specimen"
+  ]
+}
