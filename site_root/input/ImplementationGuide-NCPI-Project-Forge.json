@@ -349,6 +349,38 @@
         "reference": {
           "reference": "ValueSet/disease-codes"
         }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem doid",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/doid",
+        "reference": {
+          "reference": "CodeSystem/doid"
+        }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem snomedct",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/snomedct",
+        "reference": {
+          "reference": "CodeSystem/snomedct"
+        }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem hpo",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/hpo",
+        "reference": {
+          "reference": "CodeSystem/hpo"
+        }
+      },
+      {
+        "description": "NCPI Project Forge CodeSystem omim",
+        "exampleBoolean": false,
+        "name": "NCPI Project Forge CodeSystem/omim",
+        "reference": {
+          "reference": "CodeSystem/omim"
+        }
       }
     ]
   },
