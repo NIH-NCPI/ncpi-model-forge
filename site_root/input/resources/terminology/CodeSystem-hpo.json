@@ -1,0 +1,19 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "hpo",
+    "url": "http://purl.obolibrary.org/obo/hp.owl",
+    "name": "hpo",
+    "title": "HPO",
+    "status": "draft",
+    "experimental": false,
+    "description": "HPO",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+        {
+            "code": "HP:0000076",
+            "display": "Vesicoureteral reflux"
+        }
+    ]
+}

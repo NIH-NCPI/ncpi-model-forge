@@ -1,0 +1,2003 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "omim",
+    "url": "http://purl.obolibrary.org/obo/omim.owl",
+    "name": "omim",
+    "title": "omim",
+    "status": "draft",
+    "experimental": false,
+    "description": "omim",
+    "caseSensitive": true,
+    "content": "complete",
+    "count": 1,
+    "concept": [
+        {
+            "code": "OMIM:613801",
+            "display": "Retinitis pigmentosa-40"
+        },
+        {
+            "code": "OMIM:213300",
+            "display": "Joubert syndrome 1"
+        },
+        {
+            "code": "OMIM:615780",
+            "display": "Retinitis pigmentosa 69"
+        },
+        {
+            "code": "OMIM:613826",
+            "display": "Leber congenital amaurosis 6"
+        },
+        {
+            "code": "OMIM:310200",
+            "display": "Duchenne muscular dystrophy"
+        },
+        {
+            "code": "OMIM:617194",
+            "display": "Lethal congenital contracture syndrome 11"
+        },
+        {
+            "code": "OMIM:105400",
+            "display": "AMYOTROPHIC LATERAL SCLEROSIS 1; ALS1"
+        },
+        {
+            "code": "OMIM:108120",
+            "display": "ARTHROGRYPOSIS, DISTAL, TYPE 1A; DA1A"
+        },
+        {
+            "code": "OMIM:114300",
+            "display": "ARTHROGRYPOSIS, DISTAL, TYPE 3; DA3"
+        },
+        {
+            "code": "OMIM:115195",
+            "display": "CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 2; CMH2"
+        },
+        {
+            "code": "OMIM:115196",
+            "display": "CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 3; CMH3"
+        },
+        {
+            "code": "OMIM:115197",
+            "display": "CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 4; CMH4"
+        },
+        {
+            "code": "OMIM:115200",
+            "display": "CARDIOMYOPATHY, DILATED, 1A; CMD1A"
+        },
+        {
+            "code": "OMIM:117000",
+            "display": "CENTRAL CORE DISEASE OF MUSCLE; CCD"
+        },
+        {
+            "code": "OMIM:117360",
+            "display": "SPINOCEREBELLAR ATAXIA 29; SCA29"
+        },
+        {
+            "code": "OMIM:119530",
+            "display": "OROFACIAL CLEFT 1; OFC1"
+        },
+        {
+            "code": "OMIM:122470",
+            "display": "CORNELIA DE LANGE SYNDROME 1; CDLS1"
+        },
+        {
+            "code": "OMIM:130600",
+            "display": "ELLIPTOCYTOSIS 2; EL2"
+        },
+        {
+            "code": "OMIM:135900",
+            "display": "COFFIN-SIRIS SYNDROME 1; CSS1"
+        },
+        {
+            "code": "OMIM:136140",
+            "display": "FLOATING-HARBOR SYNDROME; FLHS"
+        },
+        {
+            "code": "OMIM:137920",
+            "display": "RENAL CYSTS AND DIABETES SYNDROME; RCAD"
+        },
+        {
+            "code": "OMIM:139090",
+            "display": "GRAY PLATELET SYNDROME; GPS"
+        },
+        {
+            "code": "OMIM:139210",
+            "display": "MYHRE SYNDROME; MYHRS"
+        },
+        {
+            "code": "OMIM:143095",
+            "display": "SPONDYLOEPIPHYSEAL DYSPLASIA WITH CONGENITAL JOINT DISLOCATIONS; SEDCJD"
+        },
+        {
+            "code": "OMIM:143465",
+            "display": "ATTENTION DEFICIT-HYPERACTIVITY DISORDER; ADHD"
+        },
+        {
+            "code": "OMIM:147891",
+            "display": "ISCHIOCOXOPODOPATELLAR SYNDROME WITH OR WITHOUT PULMONARY ARTERIAL HYPERTENSION; ICPPS"
+        },
+        {
+            "code": "OMIM:147920",
+            "display": "KABUKI SYNDROME 1; KABUK1"
+        },
+        {
+            "code": "OMIM:148050",
+            "display": "KBG SYNDROME; KBGS"
+        },
+        {
+            "code": "OMIM:149400",
+            "display": "HYPEREKPLEXIA 1; HKPX1"
+        },
+        {
+            "code": "OMIM:152950",
+            "display": "MICROCEPHALY WITH OR WITHOUT CHORIORETINOPATHY, LYMPHEDEMA, OR MENTAL RETARDATION; MCLMR"
+        },
+        {
+            "code": "OMIM:153670",
+            "display": "BERNARD-SOULIER SYNDROME, TYPE A2, AUTOSOMAL DOMINANT; BSSA2"
+        },
+        {
+            "code": "OMIM:154400",
+            "display": "ACROFACIAL DYSOSTOSIS 1, NAGER TYPE; AFD1"
+        },
+        {
+            "code": "OMIM:154700",
+            "display": "MARFAN SYNDROME; MFS"
+        },
+        {
+            "code": "OMIM:155310",
+            "display": "VISCERAL MYOPATHY; VSCM"
+        },
+        {
+            "code": "OMIM:158590",
+            "display": "NEURONOPATHY, DISTAL HEREDITARY MOTOR, TYPE IIA; HMN2A"
+        },
+        {
+            "code": "OMIM:158810",
+            "display": "BETHLEM MYOPATHY 1; BTHLM1"
+        },
+        {
+            "code": "OMIM:159550",
+            "display": "ATAXIA-PANCYTOPENIA SYNDROME; ATXPC"
+        },
+        {
+            "code": "OMIM:160150",
+            "display": "MYOPATHY, CENTRONUCLEAR, 1; CNM1"
+        },
+        {
+            "code": "OMIM:160500",
+            "display": "MYOPATHY, DISTAL, 1; MPD1"
+        },
+        {
+            "code": "OMIM:160800",
+            "display": "MYOTONIA CONGENITA, AUTOSOMAL DOMINANT"
+        },
+        {
+            "code": "OMIM:160900",
+            "display": "MYOTONIC DYSTROPHY 1; DM1"
+        },
+        {
+            "code": "OMIM:161800",
+            "display": "NEMALINE MYOPATHY 3; NEM3"
+        },
+        {
+            "code": "OMIM:163950",
+            "display": "NOONAN SYNDROME 1; NS1"
+        },
+        {
+            "code": "OMIM:178110",
+            "display": "CONTRACTURES, PTERYGIA, AND SPONDYLOCARPOTARSAL FUSION SYNDROME 1A; CPSFS1A"
+        },
+        {
+            "code": "OMIM:178500",
+            "display": "PULMONARY FIBROSIS, IDIOPATHIC; IPF"
+        },
+        {
+            "code": "OMIM:180100",
+            "display": "RETINITIS PIGMENTOSA 1; RP1"
+        },
+        {
+            "code": "OMIM:180849",
+            "display": "RUBINSTEIN-TAYBI SYNDROME 1; RSTS1"
+        },
+        {
+            "code": "OMIM:181430",
+            "display": "SCAPULOPERONEAL MYOPATHY, MYH7-RELATED; SPMM"
+        },
+        {
+            "code": "OMIM:182601",
+            "display": "SPASTIC PARAPLEGIA 4, AUTOSOMAL DOMINANT; SPG4"
+        },
+        {
+            "code": "OMIM:188000",
+            "display": "THROMBOCYTOPENIA 2; THC2"
+        },
+        {
+            "code": "OMIM:191480",
+            "display": "UNCOMBABLE HAIR SYNDROME 1; UHS1"
+        },
+        {
+            "code": "OMIM:203800",
+            "display": "ALSTROM SYNDROME; ALMS"
+        },
+        {
+            "code": "OMIM:204200",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 3; CLN3"
+        },
+        {
+            "code": "OMIM:204500",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 2; CLN2"
+        },
+        {
+            "code": "OMIM:205100",
+            "display": "AMYOTROPHIC LATERAL SCLEROSIS 2, JUVENILE; ALS2"
+        },
+        {
+            "code": "OMIM:206900",
+            "display": "MICROPHTHALMIA, SYNDROMIC 3; MCOPS3"
+        },
+        {
+            "code": "OMIM:208900",
+            "display": "ATAXIA-TELANGIECTASIA; AT"
+        },
+        {
+            "code": "OMIM:209850",
+            "display": "AUTISM"
+        },
+        {
+            "code": "OMIM:209900",
+            "display": "BARDET-BIEDL SYNDROME 1; BBS1"
+        },
+        {
+            "code": "OMIM:210000",
+            "display": "BEHR SYNDROME; BEHRS"
+        },
+        {
+            "code": "OMIM:210720",
+            "display": "MICROCEPHALIC OSTEODYSPLASTIC PRIMORDIAL DWARFISM, TYPE II; MOPD2"
+        },
+        {
+            "code": "OMIM:210900",
+            "display": "BLOOM SYNDROME; BLM"
+        },
+        {
+            "code": "OMIM:212065",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ia; CDG1A"
+        },
+        {
+            "code": "OMIM:212066",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIa; CDG2A"
+        },
+        {
+            "code": "OMIM:214500",
+            "display": "CHEDIAK-HIGASHI SYNDROME; CHS"
+        },
+        {
+            "code": "OMIM:214800",
+            "display": "CHARGE SYNDROME"
+        },
+        {
+            "code": "OMIM:215500",
+            "display": "CHOROIDAL DYSTROPHY, CENTRAL AREOLAR, 1; CACD1"
+        },
+        {
+            "code": "OMIM:216400",
+            "display": "COCKAYNE SYNDROME A; CSA"
+        },
+        {
+            "code": "OMIM:216550",
+            "display": "COHEN SYNDROME; COH1"
+        },
+        {
+            "code": "OMIM:217080",
+            "display": "JALILI SYNDROME"
+        },
+        {
+            "code": "OMIM:217980",
+            "display": "CORPUS CALLOSUM, AGENESIS OF, WITH FACIAL ANOMALIES AND ROBIN SEQUENCE"
+        },
+        {
+            "code": "OMIM:218340",
+            "display": "TEMTAMY SYNDROME; TEMTYS"
+        },
+        {
+            "code": "OMIM:219200",
+            "display": "CUTIS LAXA, AUTOSOMAL RECESSIVE, TYPE IIA; ARCL2A"
+        },
+        {
+            "code": "OMIM:224050",
+            "display": "CEREBELLAR ATAXIA, MENTAL RETARDATION, AND DYSEQUILIBRIUM SYNDROME 1; CAMRQ1"
+        },
+        {
+            "code": "OMIM:224690",
+            "display": "MEIER-GORLIN SYNDROME 1; MGORS1"
+        },
+        {
+            "code": "OMIM:225753",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 4; PCH4"
+        },
+        {
+            "code": "OMIM:225790",
+            "display": "PROLIFERATIVE VASCULOPATHY AND HYDRANENCEPHALY-HYDROCEPHALY SYNDROME; PVHH"
+        },
+        {
+            "code": "OMIM:227650",
+            "display": "FANCONI ANEMIA, COMPLEMENTATION GROUP A; FANCA"
+        },
+        {
+            "code": "OMIM:229600",
+            "display": "FRUCTOSE INTOLERANCE, HEREDITARY; HFI"
+        },
+        {
+            "code": "OMIM:230000",
+            "display": "FUCOSIDOSIS"
+        },
+        {
+            "code": "OMIM:230500",
+            "display": "GM1-GANGLIOSIDOSIS, TYPE I"
+        },
+        {
+            "code": "OMIM:232300",
+            "display": "GLYCOGEN STORAGE DISEASE II; GSD2"
+        },
+        {
+            "code": "OMIM:232600",
+            "display": "GLYCOGEN STORAGE DISEASE V; GSD5"
+        },
+        {
+            "code": "OMIM:234200",
+            "display": "NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 1; NBIA1"
+        },
+        {
+            "code": "OMIM:234500",
+            "display": "HARTNUP DISORDER; HND"
+        },
+        {
+            "code": "OMIM:236000",
+            "display": "LYMPHOMA, HODGKIN, CLASSIC; CHL"
+        },
+        {
+            "code": "OMIM:236600",
+            "display": "HYDROCEPHALUS, CONGENITAL, 1; HYC1"
+        },
+        {
+            "code": "OMIM:236792",
+            "display": "L-2-HYDROXYGLUTARIC ACIDURIA; L2HGA"
+        },
+        {
+            "code": "OMIM:243310",
+            "display": "BARAITSER-WINTER SYNDROME 1; BRWS1"
+        },
+        {
+            "code": "OMIM:244450",
+            "display": "KAUFMAN OCULOCEREBROFACIAL SYNDROME; KOS"
+        },
+        {
+            "code": "OMIM:245200",
+            "display": "KRABBE DISEASE"
+        },
+        {
+            "code": "OMIM:245359",
+            "display": "missing"
+        },
+        {
+            "code": "OMIM:248200",
+            "display": "STARGARDT DISEASE 1; STGD1"
+        },
+        {
+            "code": "OMIM:248700",
+            "display": "MARDEN-WALKER SYNDROME; MWKS"
+        },
+        {
+            "code": "OMIM:249000",
+            "display": "MECKEL SYNDROME, TYPE 1; MKS1"
+        },
+        {
+            "code": "OMIM:249900",
+            "display": "METACHROMATIC LEUKODYSTROPHY DUE TO SAPOSIN B DEFICIENCY"
+        },
+        {
+            "code": "OMIM:250100",
+            "display": "METACHROMATIC LEUKODYSTROPHY; MLD"
+        },
+        {
+            "code": "OMIM:250620",
+            "display": "3-HYDROXYISOBUTYRYL-CoA HYDROLASE DEFICIENCY; HIBCHD"
+        },
+        {
+            "code": "OMIM:251200",
+            "display": "MICROCEPHALY 1, PRIMARY, AUTOSOMAL RECESSIVE; MCPH1"
+        },
+        {
+            "code": "OMIM:251260",
+            "display": "NIJMEGEN BREAKAGE SYNDROME; NBS"
+        },
+        {
+            "code": "OMIM:251280",
+            "display": "DIENCEPHALIC-MESENCEPHALIC JUNCTION DYSPLASIA SYNDROME 1; DMJDS1"
+        },
+        {
+            "code": "OMIM:251290",
+            "display": "PSEUDO-TORCH SYNDROME 1; PTORCH1"
+        },
+        {
+            "code": "OMIM:251300",
+            "display": "GALLOWAY-MOWAT SYNDROME 1; GAMOS1"
+        },
+        {
+            "code": "OMIM:252010",
+            "display": "MITOCHONDRIAL COMPLEX I DEFICIENCY, NUCLEAR TYPE 1; MC1DN1"
+        },
+        {
+            "code": "OMIM:252160",
+            "display": "MOLYBDENUM COFACTOR DEFICIENCY, COMPLEMENTATION GROUP B; MOCODB"
+        },
+        {
+            "code": "OMIM:252920",
+            "display": "MUCOPOLYSACCHARIDOSIS, TYPE IIIB; MPS3B"
+        },
+        {
+            "code": "OMIM:253250",
+            "display": "MULIBREY NANISM"
+        },
+        {
+            "code": "OMIM:253600",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 1; LGMDR1"
+        },
+        {
+            "code": "OMIM:253601",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 2; LGMDR2"
+        },
+        {
+            "code": "OMIM:253700",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 5; LGMDR5"
+        },
+        {
+            "code": "OMIM:254090",
+            "display": "ULLRICH CONGENITAL MUSCULAR DYSTROPHY 1; UCMD1"
+        },
+        {
+            "code": "OMIM:254110",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 8; LGMDR8"
+        },
+        {
+            "code": "OMIM:254300",
+            "display": "MYASTHENIC SYNDROME, CONGENITAL, 10; CMS10"
+        },
+        {
+            "code": "OMIM:254780",
+            "display": "MYOCLONIC EPILEPSY OF LAFORA"
+        },
+        {
+            "code": "OMIM:254940",
+            "display": "CAREY-FINEMAN-ZITER SYNDROME; CFZS"
+        },
+        {
+            "code": "OMIM:255310",
+            "display": "MYOPATHY, CONGENITAL, WITH FIBER-TYPE DISPROPORTION; CFTD"
+        },
+        {
+            "code": "OMIM:255320",
+            "display": "MINICORE MYOPATHY WITH EXTERNAL OPHTHALMOPLEGIA"
+        },
+        {
+            "code": "OMIM:255800",
+            "display": "SCHWARTZ-JAMPEL SYNDROME, TYPE 1; SJS1"
+        },
+        {
+            "code": "OMIM:256000",
+            "display": "LEIGH SYNDROME; LS"
+        },
+        {
+            "code": "OMIM:256300",
+            "display": "NEPHROTIC SYNDROME, TYPE 1; NPHS1"
+        },
+        {
+            "code": "OMIM:256600",
+            "display": "NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 2A; NBIA2A"
+        },
+        {
+            "code": "OMIM:256700",
+            "display": "NEUROBLASTOMA, SUSCEPTIBILITY TO, 1; NBLST1"
+        },
+        {
+            "code": "OMIM:256730",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 1; CLN1"
+        },
+        {
+            "code": "OMIM:256731",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 5; CLN5"
+        },
+        {
+            "code": "OMIM:256800",
+            "display": "INSENSITIVITY TO PAIN, CONGENITAL, WITH ANHIDROSIS; CIPA"
+        },
+        {
+            "code": "OMIM:256850",
+            "display": "GIANT AXONAL NEUROPATHY 1, AUTOSOMAL RECESSIVE; GAN1"
+        },
+        {
+            "code": "OMIM:257220",
+            "display": "NIEMANN-PICK DISEASE, TYPE C1; NPC1"
+        },
+        {
+            "code": "OMIM:257320",
+            "display": "LISSENCEPHALY 2; LIS2"
+        },
+        {
+            "code": "OMIM:260400",
+            "display": "SHWACHMAN-DIAMOND SYNDROME 1; SDS1"
+        },
+        {
+            "code": "OMIM:260565",
+            "display": "PEHO SYNDROME; PEHO"
+        },
+        {
+            "code": "OMIM:261630",
+            "display": "HYPERPHENYLALANINEMIA, BH4-DEFICIENT, C; HPABH4C"
+        },
+        {
+            "code": "OMIM:262500",
+            "display": "LARON SYNDROME"
+        },
+        {
+            "code": "OMIM:263200",
+            "display": "POLYCYSTIC KIDNEY DISEASE 4 WITH OR WITHOUT POLYCYSTIC LIVER DISEASE; PKD4"
+        },
+        {
+            "code": "OMIM:265000",
+            "display": "MULTIPLE PTERYGIUM SYNDROME, ESCOBAR VARIANT; EVMPS"
+        },
+        {
+            "code": "OMIM:266100",
+            "display": "EPILEPSY, PYRIDOXINE-DEPENDENT; EPD"
+        },
+        {
+            "code": "OMIM:266265",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIc; CDG2C"
+        },
+        {
+            "code": "OMIM:266500",
+            "display": "REFSUM DISEASE, CLASSIC"
+        },
+        {
+            "code": "OMIM:266510",
+            "display": "PEROXISOME BIOGENESIS DISORDER 3B; PBD3B"
+        },
+        {
+            "code": "OMIM:268800",
+            "display": "SANDHOFF DISEASE"
+        },
+        {
+            "code": "OMIM:270200",
+            "display": "SJOGREN-LARSSON SYNDROME; SLS"
+        },
+        {
+            "code": "OMIM:270800",
+            "display": "SPASTIC PARAPLEGIA 5A, AUTOSOMAL RECESSIVE; SPG5A"
+        },
+        {
+            "code": "OMIM:271900",
+            "display": "CANAVAN DISEASE"
+        },
+        {
+            "code": "OMIM:272800",
+            "display": "TAY-SACHS DISEASE; TSD"
+        },
+        {
+            "code": "OMIM:273300",
+            "display": "TESTICULAR GERM CELL TUMOR; TGCT"
+        },
+        {
+            "code": "OMIM:274000",
+            "display": "THROMBOCYTOPENIA-ABSENT RADIUS SYNDROME; TAR"
+        },
+        {
+            "code": "OMIM:276901",
+            "display": "USHER SYNDROME, TYPE IIA; USH2A"
+        },
+        {
+            "code": "OMIM:277470",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 2A; PCH2A"
+        },
+        {
+            "code": "OMIM:300029",
+            "display": "RETINITIS PIGMENTOSA 3; RP3"
+        },
+        {
+            "code": "OMIM:300067",
+            "display": "LISSENCEPHALY, X-LINKED, 1; LISX1"
+        },
+        {
+            "code": "OMIM:300088",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 9; DEE9"
+        },
+        {
+            "code": "OMIM:300100",
+            "display": "ADRENOLEUKODYSTROPHY; ALD"
+        },
+        {
+            "code": "OMIM:300376",
+            "display": "MUSCULAR DYSTROPHY, BECKER TYPE; BMD"
+        },
+        {
+            "code": "OMIM:300387",
+            "display": "MENTAL RETARDATION, X-LINKED 63; MRX63"
+        },
+        {
+            "code": "OMIM:300476",
+            "display": "CONE-ROD DYSTROPHY, X-LINKED, 3; CORDX3"
+        },
+        {
+            "code": "OMIM:300486",
+            "display": "MENTAL RETARDATION, X-LINKED, WITH CEREBELLAR HYPOPLASIA AND DISTINCTIVE FACIAL APPEARANCE"
+        },
+        {
+            "code": "OMIM:300495",
+            "display": "AUTISM, SUSCEPTIBILITY TO, X-LINKED 2; AUTSX2"
+        },
+        {
+            "code": "OMIM:300523",
+            "display": "ALLAN-HERNDON-DUDLEY SYNDROME; AHDS"
+        },
+        {
+            "code": "OMIM:300534",
+            "display": "MENTAL RETARDATION, X-LINKED, SYNDROMIC, CLAES-JENSEN TYPE; MRXSCJ"
+        },
+        {
+            "code": "OMIM:300695",
+            "display": "SCAPULOPERONEAL MYOPATHY, X-LINKED DOMINANT; SPM"
+        },
+        {
+            "code": "OMIM:300749",
+            "display": "MENTAL RETARDATION AND MICROCEPHALY WITH PONTINE AND CEREBELLAR HYPOPLASIA; MICPCH"
+        },
+        {
+            "code": "OMIM:300804",
+            "display": "JOUBERT SYNDROME 10; JBTS10"
+        },
+        {
+            "code": "OMIM:300881",
+            "display": "MOVED TO 615777"
+        },
+        {
+            "code": "OMIM:300882",
+            "display": "CORNELIA DE LANGE SYNDROME 5; CDLS5"
+        },
+        {
+            "code": "OMIM:300894",
+            "display": "NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 5; NBIA5"
+        },
+        {
+            "code": "OMIM:300908",
+            "display": "ANEMIA, NONSPHEROCYTIC HEMOLYTIC, DUE TO G6PD DEFICIENCY"
+        },
+        {
+            "code": "OMIM:300957",
+            "display": "MENTAL RETARDATION, X-LINKED 12; MRX12"
+        },
+        {
+            "code": "OMIM:300958",
+            "display": "INTELLECTUAL DEVELOPMENTAL DISORDER, X-LINKED, SYNDROMIC, SNIJDERS BLOK TYPE; MRXSSB"
+        },
+        {
+            "code": "OMIM:300966",
+            "display": "MENTAL RETARDATION, X-LINKED, SYNDROMIC 33; MRXS33"
+        },
+        {
+            "code": "OMIM:300968",
+            "display": "MENTAL RETARDATION, X-LINKED 99, SYNDROMIC, FEMALE-RESTRICTED; MRXS99F"
+        },
+        {
+            "code": "OMIM:300983",
+            "display": "MENTAL RETARDATION, X-LINKED 104; MRX104"
+        },
+        {
+            "code": "OMIM:300986",
+            "display": "MENTAL RETARDATION, X-LINKED, SYNDROMIC, BAIN TYPE; MRXSB"
+        },
+        {
+            "code": "OMIM:301050",
+            "display": "ALPORT SYNDROME 1, X-LINKED; ATS1"
+        },
+        {
+            "code": "OMIM:301310",
+            "display": "ANEMIA, SIDEROBLASTIC, AND SPINOCEREBELLAR ATAXIA; ASAT"
+        },
+        {
+            "code": "OMIM:304340",
+            "display": "PETTIGREW SYNDROME; PGS"
+        },
+        {
+            "code": "OMIM:305100",
+            "display": "ECTODERMAL DYSPLASIA 1, HYPOHIDROTIC, X-LINKED; XHED"
+        },
+        {
+            "code": "OMIM:308350",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 1; DEE1"
+        },
+        {
+            "code": "OMIM:309500",
+            "display": "RENPENNING SYNDROME 1; RENS1"
+        },
+        {
+            "code": "OMIM:309541",
+            "display": "METHYLMALONIC ACIDEMIA AND HOMOCYSTEINEMIA, cblX TYPE"
+        },
+        {
+            "code": "OMIM:309580",
+            "display": "MENTAL RETARDATION-HYPOTONIC FACIES SYNDROME, X-LINKED, 1; MRXHF1"
+        },
+        {
+            "code": "OMIM:310468",
+            "display": "NEPHROLITHIASIS, X-LINKED RECESSIVE, WITH RENAL FAILURE; XRN"
+        },
+        {
+            "code": "OMIM:311070",
+            "display": "CHARCOT-MARIE-TOOTH DISEASE, X-LINKED RECESSIVE, 5; CMTX5"
+        },
+        {
+            "code": "OMIM:313850",
+            "display": "THORACOABDOMINAL SYNDROME; THAS"
+        },
+        {
+            "code": "OMIM:314580",
+            "display": "WIEACKER-WOLFF SYNDROME; WRWF"
+        },
+        {
+            "code": "OMIM:600059",
+            "display": "RETINITIS PIGMENTOSA 13; RP13"
+        },
+        {
+            "code": "OMIM:600105",
+            "display": "RETINITIS PIGMENTOSA 12; RP12"
+        },
+        {
+            "code": "OMIM:600118",
+            "display": "WARBURG MICRO SYNDROME 1; WARBM1"
+        },
+        {
+            "code": "OMIM:600132",
+            "display": "RETINITIS PIGMENTOSA 14; RP14"
+        },
+        {
+            "code": "OMIM:600138",
+            "display": "RETINITIS PIGMENTOSA 11; RP11"
+        },
+        {
+            "code": "OMIM:600143",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 8; CLN8"
+        },
+        {
+            "code": "OMIM:600334",
+            "display": "TIBIAL MUSCULAR DYSTROPHY, TARDIVE; TMD"
+        },
+        {
+            "code": "OMIM:600373",
+            "display": "CODAS SYNDROME"
+        },
+        {
+            "code": "OMIM:600618",
+            "display": "ETS VARIANT GENE 6; ETV6"
+        },
+        {
+            "code": "OMIM:600995",
+            "display": "NEPHROTIC SYNDROME, TYPE 2; NPHS2"
+        },
+        {
+            "code": "OMIM:601088",
+            "display": "AYME-GRIPP SYNDROME; AYGRP"
+        },
+        {
+            "code": "OMIM:601414",
+            "display": "RETINITIS PIGMENTOSA 18; RP18"
+        },
+        {
+            "code": "OMIM:601419",
+            "display": "MYOPATHY, MYOFIBRILLAR, 1; MFM1"
+        },
+        {
+            "code": "OMIM:601680",
+            "display": "ARTHROGRYPOSIS, DISTAL, TYPE 2B1; DA2B1"
+        },
+        {
+            "code": "OMIM:601718",
+            "display": "RETINITIS PIGMENTOSA 19; RP19"
+        },
+        {
+            "code": "OMIM:601780",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 6; CLN6"
+        },
+        {
+            "code": "OMIM:601815",
+            "display": "PHOSPHOGLYCERATE DEHYDROGENASE DEFICIENCY; PHGDHD"
+        },
+        {
+            "code": "OMIM:601954",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 7; LGMDR7"
+        },
+        {
+            "code": "OMIM:602482",
+            "display": "AXENFELD-RIEGER SYNDROME, TYPE 3; RIEG3"
+        },
+        {
+            "code": "OMIM:602579",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ib; CDG1B"
+        },
+        {
+            "code": "OMIM:602772",
+            "display": "RETINITIS PIGMENTOSA 25; RP25"
+        },
+        {
+            "code": "OMIM:603511",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL DOMINANT 1; LGMDD1"
+        },
+        {
+            "code": "OMIM:603896",
+            "display": "LEUKOENCEPHALOPATHY WITH VANISHING WHITE MATTER; VWM"
+        },
+        {
+            "code": "OMIM:604004",
+            "display": "MEGALENCEPHALIC LEUKOENCEPHALOPATHY WITH SUBCORTICAL CYSTS 1; MLC1"
+        },
+        {
+            "code": "OMIM:604116",
+            "display": "CONE-ROD DYSTROPHY 3; CORD3"
+        },
+        {
+            "code": "OMIM:604273",
+            "display": "MITOCHONDRIAL COMPLEX V (ATP SYNTHASE) DEFICIENCY, NUCLEAR TYPE 1; MC5DN1"
+        },
+        {
+            "code": "OMIM:604286",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 4; LGMDR4"
+        },
+        {
+            "code": "OMIM:604317",
+            "display": "MICROCEPHALY 2, PRIMARY, AUTOSOMAL RECESSIVE, WITH OR WITHOUT CORTICAL MALFORMATIONS; MCPH2"
+        },
+        {
+            "code": "OMIM:604360",
+            "display": "SPASTIC PARAPLEGIA 11, AUTOSOMAL RECESSIVE; SPG11"
+        },
+        {
+            "code": "OMIM:604387",
+            "display": "NEPHRONOPHTHISIS 3; NPHP3"
+        },
+        {
+            "code": "OMIM:604537",
+            "display": "LEBER CONGENITAL AMAUROSIS 5; LCA5"
+        },
+        {
+            "code": "OMIM:604592",
+            "display": "T CELL IMMUNE REGULATOR 1; TCIRG1"
+        },
+        {
+            "code": "OMIM:605130",
+            "display": "WIEDEMANN-STEINER SYNDROME; WDSTS"
+        },
+        {
+            "code": "OMIM:605355",
+            "display": "NEMALINE MYOPATHY 5; NEM5"
+        },
+        {
+            "code": "OMIM:605407",
+            "display": "SEGAWA SYNDROME, AUTOSOMAL RECESSIVE"
+        },
+        {
+            "code": "OMIM:605637",
+            "display": "MYOPATHY, PROXIMAL, WITH OPHTHALMOPLEGIA; MYPOP"
+        },
+        {
+            "code": "OMIM:605670",
+            "display": "LATE-ONSET RETINAL DEGENERATION; LORD"
+        },
+        {
+            "code": "OMIM:605820",
+            "display": "NONAKA MYOPATHY; NM"
+        },
+        {
+            "code": "OMIM:605899",
+            "display": "GLYCINE ENCEPHALOPATHY; GCE"
+        },
+        {
+            "code": "OMIM:606068",
+            "display": "RETINITIS PIGMENTOSA 28; RP28"
+        },
+        {
+            "code": "OMIM:606170",
+            "display": "GENITOPATELLAR SYNDROME; GTPTS"
+        },
+        {
+            "code": "OMIM:606232",
+            "display": "PHELAN-MCDERMID SYNDROME; PHMDS"
+        },
+        {
+            "code": "OMIM:606777",
+            "display": "GLUT1 DEFICIENCY SYNDROME 1; GLUT1DS1"
+        },
+        {
+            "code": "OMIM:606854",
+            "display": "POLYMICROGYRIA, BILATERAL FRONTOPARIETAL; BFPP"
+        },
+        {
+            "code": "OMIM:606966",
+            "display": "NEPHRONOPHTHISIS 4; NPHP4"
+        },
+        {
+            "code": "OMIM:606996",
+            "display": "SENIOR-LOKEN SYNDROME 4; SLSN4"
+        },
+        {
+            "code": "OMIM:607015",
+            "display": "HURLER-SCHEIE SYNDROME"
+        },
+        {
+            "code": "OMIM:607155",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (LIMB-GIRDLE), TYPE C, 5; MDDGC5"
+        },
+        {
+            "code": "OMIM:607196",
+            "display": "MICROCEPHALY, AMISH TYPE; MCPHA"
+        },
+        {
+            "code": "OMIM:607225",
+            "display": "SPASTIC PARALYSIS, INFANTILE-ONSET ASCENDING; IAHSP"
+        },
+        {
+            "code": "OMIM:607426",
+            "display": "COENZYME Q10 DEFICIENCY, PRIMARY, 1; COQ10D1"
+        },
+        {
+            "code": "OMIM:607432",
+            "display": "LISSENCEPHALY 1; LIS1"
+        },
+        {
+            "code": "OMIM:607483",
+            "display": "THIAMINE METABOLISM DYSFUNCTION SYNDROME 2 (BIOTIN- OR THIAMINE-RESPONSIVE TYPE); THMD2"
+        },
+        {
+            "code": "OMIM:607595",
+            "display": "MOVED TO 175780"
+        },
+        {
+            "code": "OMIM:607596",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 1A; PCH1A"
+        },
+        {
+            "code": "OMIM:607855",
+            "display": "MUSCULAR DYSTROPHY, CONGENITAL MEROSIN-DEFICIENT, 1A; MDC1A"
+        },
+        {
+            "code": "OMIM:608027",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 3; PCH3"
+        },
+        {
+            "code": "OMIM:608091",
+            "display": "JOUBERT SYNDROME 2; JBTS2"
+        },
+        {
+            "code": "OMIM:608099",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 3; LGMDR3"
+        },
+        {
+            "code": "OMIM:608133",
+            "display": "RETINITIS PIGMENTOSA 7; RP7"
+        },
+        {
+            "code": "OMIM:608358",
+            "display": "MYOPATHY, MYOSIN STORAGE, AUTOSOMAL DOMINANT; MSMA"
+        },
+        {
+            "code": "OMIM:608380",
+            "display": "RETINITIS PIGMENTOSA 26; RP26"
+        },
+        {
+            "code": "OMIM:608393",
+            "display": "MICROCEPHALY 6, PRIMARY, AUTOSOMAL RECESSIVE; MCPH6"
+        },
+        {
+            "code": "OMIM:608415",
+            "display": "PROLONGED ELECTRORETINAL RESPONSE SUPPRESSION; PERRS"
+        },
+        {
+            "code": "OMIM:608423",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL DOMINANT 2; LGMDD2"
+        },
+        {
+            "code": "OMIM:608540",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE Ik; CDG1K"
+        },
+        {
+            "code": "OMIM:608629",
+            "display": "JOUBERT SYNDROME 3; JBTS3"
+        },
+        {
+            "code": "OMIM:608643",
+            "display": "AROMATIC L-AMINO ACID DECARBOXYLASE DEFICIENCY"
+        },
+        {
+            "code": "OMIM:608716",
+            "display": "MICROCEPHALY 5, PRIMARY, AUTOSOMAL RECESSIVE; MCPH5"
+        },
+        {
+            "code": "OMIM:608804",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 2; HLD2"
+        },
+        {
+            "code": "OMIM:608807",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 10; LGMDR10"
+        },
+        {
+            "code": "OMIM:609033",
+            "display": "POSTERIOR COLUMN ATAXIA WITH RETINITIS PIGMENTOSA; AXPC1"
+        },
+        {
+            "code": "OMIM:609056",
+            "display": "SALT AND PEPPER DEVELOPMENTAL REGRESSION SYNDROME; SPDRS"
+        },
+        {
+            "code": "OMIM:609195",
+            "display": "SPASTIC PARAPLEGIA 26, AUTOSOMAL RECESSIVE; SPG26"
+        },
+        {
+            "code": "OMIM:609200",
+            "display": "MYOPATHY, MYOFIBRILLAR, 3; MFM3"
+        },
+        {
+            "code": "OMIM:609260",
+            "display": "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, AUTOSOMAL DOMINANT, TYPE 2A2A; CMT2A2A"
+        },
+        {
+            "code": "OMIM:609270",
+            "display": "SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 7; SCAR7"
+        },
+        {
+            "code": "OMIM:609304",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 3; DEE3"
+        },
+        {
+            "code": "OMIM:609524",
+            "display": "MYOPATHY, MYOFIBRILLAR, 5; MFM5"
+        },
+        {
+            "code": "OMIM:609560",
+            "display": "MITOCHONDRIAL DNA DEPLETION SYNDROME 2 (MYOPATHIC TYPE); MTDPS2"
+        },
+        {
+            "code": "OMIM:609923",
+            "display": "RETINITIS PIGMENTOSA 31; RP31"
+        },
+        {
+            "code": "OMIM:610019",
+            "display": "CATARACT 18; CTRCT18"
+        },
+        {
+            "code": "OMIM:610031",
+            "display": "CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 7; CDCBM7"
+        },
+        {
+            "code": "OMIM:610127",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 10; CLN10"
+        },
+        {
+            "code": "OMIM:610181",
+            "display": "AICARDI-GOUTIERES SYNDROME 2; AGS2"
+        },
+        {
+            "code": "OMIM:610188",
+            "display": "JOUBERT SYNDROME 5; JBTS5"
+        },
+        {
+            "code": "OMIM:610217",
+            "display": "NEURODEGENERATION WITH BRAIN IRON ACCUMULATION 2B; NBIA2B"
+        },
+        {
+            "code": "OMIM:610329",
+            "display": "AICARDI-GOUTIERES SYNDROME 3; AGS3"
+        },
+        {
+            "code": "OMIM:610333",
+            "display": "AICARDI-GOUTIERES SYNDROME 4; AGS4"
+        },
+        {
+            "code": "OMIM:610359",
+            "display": "RETINITIS PIGMENTOSA 33; RP33"
+        },
+        {
+            "code": "OMIM:610443",
+            "display": "KOOLEN-DE VRIES SYNDROME; KDVS"
+        },
+        {
+            "code": "OMIM:610444",
+            "display": "NIGHT BLINDNESS, CONGENITAL STATIONARY, AUTOSOMAL DOMINANT 3; CSNBAD3"
+        },
+        {
+            "code": "OMIM:610489",
+            "display": "PIGMENTED NODULAR ADRENOCORTICAL DISEASE, PRIMARY, 1; PPNAD1"
+        },
+        {
+            "code": "OMIM:610532",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 5; HLD5"
+        },
+        {
+            "code": "OMIM:610688",
+            "display": "JOUBERT SYNDROME 6; JBTS6"
+        },
+        {
+            "code": "OMIM:610725",
+            "display": "NEPHROTIC SYNDROME, TYPE 3; NPHS3"
+        },
+        {
+            "code": "OMIM:610951",
+            "display": "CEROID LIPOFUSCINOSIS, NEURONAL, 7; CLN7"
+        },
+        {
+            "code": "OMIM:611091",
+            "display": "MENTAL RETARDATION, AUTOSOMAL RECESSIVE 5; MRT5"
+        },
+        {
+            "code": "OMIM:611302",
+            "display": "SPASTIC ATAXIA 2, AUTOSOMAL RECESSIVE; SPAX2"
+        },
+        {
+            "code": "OMIM:611307",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 12; LGMDR12"
+        },
+        {
+            "code": "OMIM:611560",
+            "display": "JOUBERT SYNDROME 7; JBTS7"
+        },
+        {
+            "code": "OMIM:611603",
+            "display": "LISSENCEPHALY 3; LIS3"
+        },
+        {
+            "code": "OMIM:611705",
+            "display": "SALIH MYOPATHY; SALMY"
+        },
+        {
+            "code": "OMIM:611721",
+            "display": "COMBINED SAPOSIN DEFICIENCY"
+        },
+        {
+            "code": "OMIM:611726",
+            "display": "EPILEPSY, PROGRESSIVE MYOCLONIC, 3, WITH OR WITHOUT INTRACELLULAR INCLUSIONS; EPM3"
+        },
+        {
+            "code": "OMIM:611755",
+            "display": "LEBER CONGENITAL AMAUROSIS 10; LCA10"
+        },
+        {
+            "code": "OMIM:612015",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE In; CDG1N"
+        },
+        {
+            "code": "OMIM:612095",
+            "display": "RETINITIS PIGMENTOSA 41; RP41"
+        },
+        {
+            "code": "OMIM:612126",
+            "display": "GLUT1 DEFICIENCY SYNDROME 2; GLUT1DS2"
+        },
+        {
+            "code": "OMIM:612285",
+            "display": "JOUBERT SYNDROME 9; JBTS9"
+        },
+        {
+            "code": "OMIM:612337",
+            "display": "MENTAL RETARDATION, AUTOSOMAL DOMINANT 22; MRD22"
+        },
+        {
+            "code": "OMIM:612370",
+            "display": "HYPOGONADOTROPIC HYPOGONADISM 5 WITH OR WITHOUT ANOSMIA; HH5"
+        },
+        {
+            "code": "OMIM:612438",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 6; HLD6"
+        },
+        {
+            "code": "OMIM:612528",
+            "display": "DIAMOND-BLACKFAN ANEMIA 5; DBA5"
+        },
+        {
+            "code": "OMIM:612621",
+            "display": "MENTAL RETARDATION, AUTOSOMAL DOMINANT 5; MRD5"
+        },
+        {
+            "code": "OMIM:612712",
+            "display": "LEBER CONGENITAL AMAUROSIS 13; LCA13"
+        },
+        {
+            "code": "OMIM:612716",
+            "display": "DYSTONIA, DOPA-RESPONSIVE, DUE TO SEPIAPTERIN REDUCTASE DEFICIENCY"
+        },
+        {
+            "code": "OMIM:612780",
+            "display": "SEIZURES, SENSORINEURAL DEAFNESS, ATAXIA, MENTAL RETARDATION, AND ELECTROLYTE IMBALANCE; SESAMES"
+        },
+        {
+            "code": "OMIM:612936",
+            "display": "SPASTIC PARAPLEGIA 50, AUTOSOMAL RECESSIVE; SPG50"
+        },
+        {
+            "code": "OMIM:612943",
+            "display": "RETINITIS PIGMENTOSA 42; RP42"
+        },
+        {
+            "code": "OMIM:612951",
+            "display": "LEUKOENCEPHALOPATHY, CYSTIC, WITHOUT MEGALENCEPHALY"
+        },
+        {
+            "code": "OMIM:613065",
+            "display": "LEUKEMIA, ACUTE LYMPHOBLASTIC; ALL"
+        },
+        {
+            "code": "OMIM:613091",
+            "display": "SHORT-RIB THORACIC DYSPLASIA 3 WITH OR WITHOUT POLYDACTYLY; SRTD3"
+        },
+        {
+            "code": "OMIM:613155",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH IMPAIRED INTELLECTUAL IMPAIRMENT), TYPE B, 1; MDDGB1"
+        },
+        {
+            "code": "OMIM:613156",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH IMPAIRED INTELLECTUAL DEVELOPMENT), TYPE B, 2; MDDGB2"
+        },
+        {
+            "code": "OMIM:613158",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (LIMB-GIRDLE), TYPE C, 2; MDDGC2"
+        },
+        {
+            "code": "OMIM:613192",
+            "display": "MENTAL RETARDATION, AUTOSOMAL RECESSIVE 13; MRT13"
+        },
+        {
+            "code": "OMIM:613205",
+            "display": "MUSCULAR DYSTROPHY, CONGENITAL, LMNA-RELATED"
+        },
+        {
+            "code": "OMIM:613216",
+            "display": "NIGHT BLINDNESS, CONGENITAL STATIONARY, TYPE 1C; CSNB1C"
+        },
+        {
+            "code": "OMIM:613217",
+            "display": "DIARRHEA 5, WITH TUFTING ENTEROPATHY, CONGENITAL; DIAR5"
+        },
+        {
+            "code": "OMIM:613402",
+            "display": "MICROCEPHALY, SEIZURES, AND DEVELOPMENTAL DELAY; MCSZ"
+        },
+        {
+            "code": "OMIM:613428",
+            "display": "RETINITIS PIGMENTOSA 54; RP54"
+        },
+        {
+            "code": "OMIM:613454",
+            "display": "RETT SYNDROME, CONGENITAL VARIANT"
+        },
+        {
+            "code": "OMIM:613550",
+            "display": "NEPHRONOPHTHISIS 11; NPHP11"
+        },
+        {
+            "code": "OMIM:613561",
+            "display": "MYOPATHY, LACTIC ACIDOSIS, AND SIDEROBLASTIC ANEMIA 2; MLASA2"
+        },
+        {
+            "code": "OMIM:613587",
+            "display": "OCCULT MACULAR DYSTROPHY; OCMD"
+        },
+        {
+            "code": "OMIM:613612",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIi; CDG2I"
+        },
+        {
+            "code": "OMIM:613660",
+            "display": "CONE-ROD DYSTROPHY 15; CORD15"
+        },
+        {
+            "code": "OMIM:613668",
+            "display": "MICROCEPHALY, POSTNATAL PROGRESSIVE, WITH SEIZURES AND BRAIN ATROPHY"
+        },
+        {
+            "code": "OMIM:613680",
+            "display": "BEAULIEU-BOYCOTT-INNES SYNDROME; BBIS"
+        },
+        {
+            "code": "OMIM:613684",
+            "display": "RUBINSTEIN-TAYBI SYNDROME 2; RSTS2"
+        },
+        {
+            "code": "OMIM:613690",
+            "display": "CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 7; CMH7"
+        },
+        {
+            "code": "OMIM:613706",
+            "display": "NOONAN SYNDROME 7; NS7"
+        },
+        {
+            "code": "OMIM:613722",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 12; DEE12"
+        },
+        {
+            "code": "OMIM:613731",
+            "display": "RETINITIS PIGMENTOSA 4; RP4"
+        },
+        {
+            "code": "OMIM:613744",
+            "display": "SPASTIC PARAPLEGIA 51, AUTOSOMAL RECESSIVE; SPG51"
+        },
+        {
+            "code": "OMIM:613750",
+            "display": "RETINITIS PIGMENTOSA 27; RP27"
+        },
+        {
+            "code": "OMIM:613756",
+            "display": "RETINITIS PIGMENTOSA 49; RP49"
+        },
+        {
+            "code": "OMIM:613767",
+            "display": "RETINITIS PIGMENTOSA 45; RP45"
+        },
+        {
+            "code": "OMIM:613794",
+            "display": "RETINITIS PIGMENTOSA 20; RP20"
+        },
+        {
+            "code": "OMIM:613809",
+            "display": "RETINITIS PIGMENTOSA 39; RP39"
+        },
+        {
+            "code": "OMIM:613810",
+            "display": "RETINITIS PIGMENTOSA 43; RP43"
+        },
+        {
+            "code": "OMIM:613811",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 2D; PCH2D"
+        },
+        {
+            "code": "OMIM:613820",
+            "display": "NEPHRONOPHTHISIS 12; NPHP12"
+        },
+        {
+            "code": "OMIM:613835",
+            "display": "LEBER CONGENITAL AMAUROSIS 8; LCA8"
+        },
+        {
+            "code": "OMIM:613861",
+            "display": "RETINITIS PIGMENTOSA 59; RP59"
+        },
+        {
+            "code": "OMIM:613862",
+            "display": "RETINITIS PIGMENTOSA 38; RP38"
+        },
+        {
+            "code": "OMIM:614034",
+            "display": "HEME OXYGENASE 1 DEFICIENCY; HMOX1D"
+        },
+        {
+            "code": "OMIM:614065",
+            "display": "MYOPATHY, DISTAL, 4; MPD4"
+        },
+        {
+            "code": "OMIM:614173",
+            "display": "JOUBERT SYNDROME 13; JBTS13"
+        },
+        {
+            "code": "OMIM:614180",
+            "display": "RETINITIS PIGMENTOSA 61; RP61"
+        },
+        {
+            "code": "OMIM:614181",
+            "display": "RETINITIS PIGMENTOSA 62; RP62"
+        },
+        {
+            "code": "OMIM:614199",
+            "display": "NEPHROTIC SYNDROME, TYPE 5, WITH OR WITHOUT OCULAR ABNORMALITIES; NPHS5"
+        },
+        {
+            "code": "OMIM:614202",
+            "display": "RAFIQ SYNDROME; RAFQS"
+        },
+        {
+            "code": "OMIM:614225",
+            "display": "WARBURG MICRO SYNDROME 2; WARBM2"
+        },
+        {
+            "code": "OMIM:614254",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH OR WITHOUT HYPERKINETIC MOVEMENTS AND SEIZURES, AUTOSOMAL DOMINANT; NDHMSD"
+        },
+        {
+            "code": "OMIM:614255",
+            "display": "NESCAV SYNDROME; NESCAVS"
+        },
+        {
+            "code": "OMIM:614299",
+            "display": "MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 2 WITH HYPERGLYCINEMIA; MMDS2"
+        },
+        {
+            "code": "OMIM:614381",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 8, WITH OR WITHOUT OLIGODONTIA AND/OR HYPOGONADOTROPIC HYPOGONADISM; HLD8"
+        },
+        {
+            "code": "OMIM:614424",
+            "display": "JOUBERT SYNDROME 14; JBTS14"
+        },
+        {
+            "code": "OMIM:614500",
+            "display": "CONE-ROD DYSTROPHY 16; CORD16"
+        },
+        {
+            "code": "OMIM:614557",
+            "display": "EHLERS-DANLOS SYNDROME, KYPHOSCOLIOTIC TYPE, 2; EDSKSCL2"
+        },
+        {
+            "code": "OMIM:614607",
+            "display": "COFFIN-SIRIS SYNDROME 2; CSS2"
+        },
+        {
+            "code": "OMIM:614615",
+            "display": "JOUBERT SYNDROME 17; JBTS17"
+        },
+        {
+            "code": "OMIM:614669",
+            "display": "AURICULOCONDYLAR SYNDROME 2; ARCND2"
+        },
+        {
+            "code": "OMIM:614678",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 1B; PCH1B"
+        },
+        {
+            "code": "OMIM:614744",
+            "display": "FACIAL PARESIS, HEREDITARY CONGENITAL, 3; HCFP3"
+        },
+        {
+            "code": "OMIM:614753",
+            "display": "SOTOS SYNDROME 2; SOTOS2"
+        },
+        {
+            "code": "OMIM:614831",
+            "display": "SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 13; SCAR13"
+        },
+        {
+            "code": "OMIM:614833",
+            "display": "MICROCEPHALY, SHORT STATURE, AND POLYMICROGYRIA WITH OR WITHOUT SEIZURES; MSSP"
+        },
+        {
+            "code": "OMIM:614876",
+            "display": "PEROXISOME BIOGENESIS DISORDER 8A (ZELLWEGER); PBD8A"
+        },
+        {
+            "code": "OMIM:614877",
+            "display": "PEROXISOME BIOGENESIS DISORDER 8B; PBD8B"
+        },
+        {
+            "code": "OMIM:614932",
+            "display": "COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 13; COXPD13"
+        },
+        {
+            "code": "OMIM:614945",
+            "display": "DEAFNESS, AUTOSOMAL RECESSIVE 18B; DFNB18B"
+        },
+        {
+            "code": "OMIM:615030",
+            "display": "SPASTIC PARAPLEGIA 56, AUTOSOMAL RECESSIVE; SPG56"
+        },
+        {
+            "code": "OMIM:615031",
+            "display": "SPASTIC PARAPLEGIA 49, AUTOSOMAL RECESSIVE; SPG49"
+        },
+        {
+            "code": "OMIM:615065",
+            "display": "ARTHROGRYPOSIS, DISTAL, TYPE 5D; DA5D"
+        },
+        {
+            "code": "OMIM:615071",
+            "display": "ALAZAMI SYNDROME; ALAZS"
+        },
+        {
+            "code": "OMIM:615095",
+            "display": "MICROCEPHALY 10, PRIMARY, AUTOSOMAL RECESSIVE; MCPH10"
+        },
+        {
+            "code": "OMIM:615181",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (CONGENITAL WITH BRAIN AND EYE ANOMALIES), TYPE A, 11; MDDGA11"
+        },
+        {
+            "code": "OMIM:615190",
+            "display": "DYSKERATOSIS CONGENITA, AUTOSOMAL RECESSIVE 5; DKCB5"
+        },
+        {
+            "code": "OMIM:615191",
+            "display": "LISSENCEPHALY 5; LIS5"
+        },
+        {
+            "code": "OMIM:615268",
+            "display": "CEREBELLAR ATAXIA, MENTAL RETARDATION, AND DYSEQUILIBRIUM SYNDROME 4; CAMRQ4"
+        },
+        {
+            "code": "OMIM:615286",
+            "display": "MENTAL RETARDATION, AUTOSOMAL RECESSIVE 36; MRT36"
+        },
+        {
+            "code": "OMIM:615352",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (LIMB-GIRDLE), TYPE C, 14; MDDGC14"
+        },
+        {
+            "code": "OMIM:615411",
+            "display": "CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 3; CDCBM3"
+        },
+        {
+            "code": "OMIM:615412",
+            "display": "CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 4; CDCBM4"
+        },
+        {
+            "code": "OMIM:615419",
+            "display": "HYPOTONIA, INFANTILE, WITH PSYCHOMOTOR RETARDATION AND CHARACTERISTIC FACIES 1; IHPRF1"
+        },
+        {
+            "code": "OMIM:615471",
+            "display": "MITOCHONDRIAL DNA DEPLETION SYNDROME 13 (ENCEPHALOMYOPATHIC TYPE); MTDPS13"
+        },
+        {
+            "code": "OMIM:615476",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 18; DEE18"
+        },
+        {
+            "code": "OMIM:615485",
+            "display": "BAINBRIDGE-ROPERS SYNDROME; BRPS"
+        },
+        {
+            "code": "OMIM:615502",
+            "display": "MENTAL RETARDATION, AUTOSOMAL DOMINANT 21; MRD21"
+        },
+        {
+            "code": "OMIM:615546",
+            "display": "VAN MALDERGEM SYNDROME 2; VMLDS2"
+        },
+        {
+            "code": "OMIM:615574",
+            "display": "ASPARAGINE SYNTHETASE DEFICIENCY; ASNSD"
+        },
+        {
+            "code": "OMIM:615681",
+            "display": "SPASTIC PARAPLEGIA 62, AUTOSOMAL RECESSIVE; SPG62"
+        },
+        {
+            "code": "OMIM:615715",
+            "display": "BONE MARROW FAILURE SYNDROME 2; BMFS2"
+        },
+        {
+            "code": "OMIM:615716",
+            "display": "HYPERPHOSPHATASIA WITH MENTAL RETARDATION SYNDROME 4; HPMRS4"
+        },
+        {
+            "code": "OMIM:615760",
+            "display": "MICROCEPHALY, PROGRESSIVE, WITH SEIZURES AND CEREBRAL AND CEREBELLAR ATROPHY; MSCCA"
+        },
+        {
+            "code": "OMIM:615763",
+            "display": "CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 5; CDCBM5"
+        },
+        {
+            "code": "OMIM:615809",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 9; PCH9"
+        },
+        {
+            "code": "OMIM:615829",
+            "display": "XIA-GIBBS SYNDROME; XIGIS"
+        },
+        {
+            "code": "OMIM:615834",
+            "display": "MENTAL RETARDATION, AUTOSOMAL DOMINANT 26; MRD26"
+        },
+        {
+            "code": "OMIM:615846",
+            "display": "AICARDI-GOUTIERES SYNDROME 7; AGS7"
+        },
+        {
+            "code": "OMIM:615866",
+            "display": "COFFIN-SIRIS SYNDROME 9; CSS9"
+        },
+        {
+            "code": "OMIM:615909",
+            "display": "DIAMOND-BLACKFAN ANEMIA 13; DBA13"
+        },
+        {
+            "code": "OMIM:615948",
+            "display": "OROFACIODIGITAL SYNDROME XIV; OFD14"
+        },
+        {
+            "code": "OMIM:615959",
+            "display": "MYOPATHY, CENTRONUCLEAR, 5; CNM5"
+        },
+        {
+            "code": "OMIM:615960",
+            "display": "PORETTI-BOLTSHAUSER SYNDROME; PTBHS"
+        },
+        {
+            "code": "OMIM:615973",
+            "display": "CONE-ROD DYSTROPHY 20; CORD20"
+        },
+        {
+            "code": "OMIM:615981",
+            "display": "BARDET-BIEDL SYNDROME 2; BBS2"
+        },
+        {
+            "code": "OMIM:615982",
+            "display": "BARDET-BIEDL SYNDROME 4; BBS4"
+        },
+        {
+            "code": "OMIM:615983",
+            "display": "BARDET-BIEDL SYNDROME 5; BBS5"
+        },
+        {
+            "code": "OMIM:615993",
+            "display": "BARDET-BIEDL SYNDROME 16; BBS16"
+        },
+        {
+            "code": "OMIM:616051",
+            "display": "MICROCEPHALY 13, PRIMARY, AUTOSOMAL RECESSIVE; MCPH13"
+        },
+        {
+            "code": "OMIM:616056",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 26; DEE26"
+        },
+        {
+            "code": "OMIM:616081",
+            "display": "PONTOCEREBELLAR HYPOPLASIA, TYPE 1C; PCH1C"
+        },
+        {
+            "code": "OMIM:616094",
+            "display": "MUSCULAR DYSTROPHY-DYSTROGLYCANOPATHY (LIMB-GIRDLE), TYPE C, 12; MDDGC12"
+        },
+        {
+            "code": "OMIM:616127",
+            "display": "SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 17; SCAR17"
+        },
+        {
+            "code": "OMIM:616140",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 9; HLD9"
+        },
+        {
+            "code": "OMIM:616155",
+            "display": "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2S; CMT2S"
+        },
+        {
+            "code": "OMIM:616171",
+            "display": "MICROCEPHALY AND CHORIORETINOPATHY, AUTOSOMAL RECESSIVE, 2; MCCRP2"
+        },
+        {
+            "code": "OMIM:616199",
+            "display": "POLYGLUCOSAN BODY MYOPATHY 2; PGBM2"
+        },
+        {
+            "code": "OMIM:616211",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 28; DEE28"
+        },
+        {
+            "code": "OMIM:616263",
+            "display": "NEUROLOGIC, ENDOCRINE, AND PANCREATIC DISEASE, MULTISYSTEM, INFANTILE-ONSET; IMNEPD"
+        },
+        {
+            "code": "OMIM:616266",
+            "display": "CONGENITAL CONTRACTURES OF THE LIMBS AND FACE, HYPOTONIA, AND DEVELOPMENTAL DELAY; CLIFAHDD"
+        },
+        {
+            "code": "OMIM:616271",
+            "display": "3-METHYLGLUTACONIC ACIDURIA, TYPE VII; MGCA7"
+        },
+        {
+            "code": "OMIM:616277",
+            "display": "MITOCHONDRIAL SHORT-CHAIN ENOYL-CoA HYDRATASE 1 DEFICIENCY; ECHS1D"
+        },
+        {
+            "code": "OMIM:616281",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH SPASTIC PARAPLEGIA AND MICROCEPHALY; NEDSPM"
+        },
+        {
+            "code": "OMIM:616321",
+            "display": "MYASTHENIC SYNDROME, CONGENITAL, 3A, SLOW-CHANNEL; CMS3A"
+        },
+        {
+            "code": "OMIM:616354",
+            "display": "SPINOCEREBELLAR ATAXIA, AUTOSOMAL RECESSIVE 20; SCAR20"
+        },
+        {
+            "code": "OMIM:616394",
+            "display": "RETINITIS PIGMENTOSA 71; RP71"
+        },
+        {
+            "code": "OMIM:616420",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 10; HLD10"
+        },
+        {
+            "code": "OMIM:616421",
+            "display": "MYOCLONIC-ATONIC EPILEPSY; MAE"
+        },
+        {
+            "code": "OMIM:616471",
+            "display": "BETHLEM MYOPATHY 2; BTHLM2"
+        },
+        {
+            "code": "OMIM:616490",
+            "display": "JOUBERT SYNDROME 23; JBTS23"
+        },
+        {
+            "code": "OMIM:616531",
+            "display": "POLYMICROGYRIA, PERISYLVIAN, WITH CEREBELLAR HYPOPLASIA AND ARTHROGRYPOSIS; PMGYCHA"
+        },
+        {
+            "code": "OMIM:616544",
+            "display": "RETINITIS PIGMENTOSA 73; RP73"
+        },
+        {
+            "code": "OMIM:616562",
+            "display": "RETINITIS PIGMENTOSA 74; RP74"
+        },
+        {
+            "code": "OMIM:616564",
+            "display": "NOONAN SYNDROME 10; NS10"
+        },
+        {
+            "code": "OMIM:616632",
+            "display": "SEIZURES, CORTICAL BLINDNESS, AND MICROCEPHALY SYNDROME; SCBMS"
+        },
+        {
+            "code": "OMIM:616647",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 35; DEE35"
+        },
+        {
+            "code": "OMIM:616649",
+            "display": "SPHEROCYTOSIS, TYPE 2; SPH2"
+        },
+        {
+            "code": "OMIM:616651",
+            "display": "ROIFMAN SYNDROME; RFMN"
+        },
+        {
+            "code": "OMIM:616654",
+            "display": "JOUBERT SYNDROME 24; JBTS24"
+        },
+        {
+            "code": "OMIM:616657",
+            "display": "SPASTIC TETRAPLEGIA, THIN CORPUS CALLOSUM, AND PROGRESSIVE MICROCEPHALY; SPATCCM"
+        },
+        {
+            "code": "OMIM:616668",
+            "display": "CHARCOT-MARIE-TOOTH DISEASE, AXONAL, TYPE 2X; CMT2X"
+        },
+        {
+            "code": "OMIM:616683",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 12; HLD12"
+        },
+        {
+            "code": "OMIM:616721",
+            "display": "CONGENITAL DISORDER OF GLYCOSYLATION, TYPE IIn; CDG2N"
+        },
+        {
+            "code": "OMIM:616732",
+            "display": "OPTIC ATROPHY 10 WITH OR WITHOUT ATAXIA, MENTAL RETARDATION, AND SEIZURES; OPA10"
+        },
+        {
+            "code": "OMIM:616738",
+            "display": "RADIOULNAR SYNOSTOSIS WITH AMEGAKARYOCYTIC THROMBOCYTOPENIA 2; RUSAT2"
+        },
+        {
+            "code": "OMIM:616740",
+            "display": "IMMUNODEFICIENCY 46; IMD46"
+        },
+        {
+            "code": "OMIM:616789",
+            "display": "MENTAL RETARDATION AND DISTINCTIVE FACIAL FEATURES WITH OR WITHOUT CARDIAC DEFECTS; MRFACD"
+        },
+        {
+            "code": "OMIM:616801",
+            "display": "HYPOTONIA, INFANTILE, WITH PSYCHOMOTOR RETARDATION AND CHARACTERISTIC FACIES 2; IHPRF2"
+        },
+        {
+            "code": "OMIM:616875",
+            "display": "CEREBELLAR ATROPHY, VISUAL IMPAIRMENT, AND PSYCHOMOTOR RETARDATION; CAVIPMR"
+        },
+        {
+            "code": "OMIM:616892",
+            "display": "NEPHROTIC SYNDROME, TYPE 12; NPHS12"
+        },
+        {
+            "code": "OMIM:616900",
+            "display": "HYPOTONIA, INFANTILE, WITH PSYCHOMOTOR RETARDATION AND CHARACTERISTIC FACIES 3; IHPRF3"
+        },
+        {
+            "code": "OMIM:616973",
+            "display": "MENTAL RETARDATION, AUTOSOMAL DOMINANT 42; MRD42"
+        },
+        {
+            "code": "OMIM:617011",
+            "display": "MACROCEPHALY, DYSMORPHIC FACIES, AND PSYCHOMOTOR RETARDATION; MDFPMR"
+        },
+        {
+            "code": "OMIM:617013",
+            "display": "HYPERMANGANESEMIA WITH DYSTONIA 2; HMNDYT2"
+        },
+        {
+            "code": "OMIM:617047",
+            "display": "CARDIOMYOPATHY, FAMILIAL HYPERTROPHIC, 26; CMH26"
+        },
+        {
+            "code": "OMIM:617052",
+            "display": "BONE MARROW FAILURE SYNDROME 3; BMFS3"
+        },
+        {
+            "code": "OMIM:617053",
+            "display": "MIRAGE SYNDROME; MIRAGE"
+        },
+        {
+            "code": "OMIM:617093",
+            "display": "GROWTH RETARDATION, IMPAIRED INTELLECTUAL DEVELOPMENT, HYPOTONIA, AND HEPATOPATHY; GRIDHH"
+        },
+        {
+            "code": "OMIM:617106",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 42; DEE42"
+        },
+        {
+            "code": "OMIM:617120",
+            "display": "JOUBERT SYNDROME 27; JBTS27"
+        },
+        {
+            "code": "OMIM:617121",
+            "display": "JOUBERT SYNDROME 28; JBTS28"
+        },
+        {
+            "code": "OMIM:617123",
+            "display": "RETINITIS PIGMENTOSA 76; RP76"
+        },
+        {
+            "code": "OMIM:617137",
+            "display": "FRONTOMETAPHYSEAL DYSPLASIA 2; FMD2"
+        },
+        {
+            "code": "OMIM:617146",
+            "display": "ARTHROGRYPOSIS, DISTAL, WITH IMPAIRED PROPRIOCEPTION AND TOUCH; DAIPT"
+        },
+        {
+            "code": "OMIM:617183",
+            "display": "HAREL-YOON SYNDROME; HAYOS"
+        },
+        {
+            "code": "OMIM:617193",
+            "display": "ENCEPHALOPATHY, PROGRESSIVE, EARLY-ONSET, WITH BRAIN ATROPHY AND THIN CORPUS CALLOSUM; PEBAT"
+        },
+        {
+            "code": "OMIM:617222",
+            "display": "SUDDEN CARDIAC FAILURE, INFANTILE; SCFI"
+        },
+        {
+            "code": "OMIM:617276",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 48; DEE48"
+        },
+        {
+            "code": "OMIM:617330",
+            "display": "HYPOTONIA, ATAXIA, AND DELAYED DEVELOPMENT SYNDROME; HADDS"
+        },
+        {
+            "code": "OMIM:617350",
+            "display": "DEVELOPMENTAL AND EPILEPTIC ENCEPHALOPATHY 52; DEE52"
+        },
+        {
+            "code": "OMIM:617397",
+            "display": "PSEUDO-TORCH SYNDROME 2; PTORCH2"
+        },
+        {
+            "code": "OMIM:617433",
+            "display": "RETINITIS PIGMENTOSA 78; RP78"
+        },
+        {
+            "code": "OMIM:617443",
+            "display": "BLEEDING DISORDER, PLATELET-TYPE, 21; BDPLT21"
+        },
+        {
+            "code": "OMIM:617460",
+            "display": "RETINITIS PIGMENTOSA 79; RP79"
+        },
+        {
+            "code": "OMIM:617481",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH MICROCEPHALY, HYPOTONIA, AND VARIABLE BRAIN ANOMALIES; NMIHBA"
+        },
+        {
+            "code": "OMIM:617537",
+            "display": "RAHMAN SYNDROME; RMNS"
+        },
+        {
+            "code": "OMIM:617547",
+            "display": "RETINAL DYSTROPHY WITH OR WITHOUT MACULAR STAPHYLOMA; RDMS"
+        },
+        {
+            "code": "OMIM:617622",
+            "display": "JOUBERT SYNDROME 30; JBTS30"
+        },
+        {
+            "code": "OMIM:617675",
+            "display": "MYOPATHY, MITOCHONDRIAL, AND ATAXIA; MMYAT"
+        },
+        {
+            "code": "OMIM:617681",
+            "display": "BLEPHAROCHEILODONTIC SYNDROME 2; BCDS2"
+        },
+        {
+            "code": "OMIM:617694",
+            "display": "AL KAISSI SYNDROME; ALKAS"
+        },
+        {
+            "code": "OMIM:617781",
+            "display": "RETINITIS PIGMENTOSA 80; RP80"
+        },
+        {
+            "code": "OMIM:617805",
+            "display": "RENAL HYPODYSPLASIA/APLASIA 3; RHDA3"
+        },
+        {
+            "code": "OMIM:617807",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH ATAXIC GAIT, ABSENT SPEECH, AND DECREASED CORTICAL WHITE MATTER; NDAGSCW"
+        },
+        {
+            "code": "OMIM:617829",
+            "display": "EPILEPTIC ENCEPHALOPATHY, INFANTILE OR EARLY CHILDHOOD, 2; IECEE2"
+        },
+        {
+            "code": "OMIM:617873",
+            "display": "COMBINED OXIDATIVE PHOSPHORYLATION DEFICIENCY 35; COXPD35"
+        },
+        {
+            "code": "OMIM:617948",
+            "display": "ELLIPTOCYTOSIS 3; EL3"
+        },
+        {
+            "code": "OMIM:617954",
+            "display": "MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 6; MMDS6"
+        },
+        {
+            "code": "OMIM:618056",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH CEREBELLAR ATROPHY AND WITH OR WITHOUT SEIZURES; NEDCAS"
+        },
+        {
+            "code": "OMIM:618088",
+            "display": "NEURODEVELOPMENTAL DISORDER WITH REGRESSION, ABNORMAL MOVEMENTS, LOSS OF SPEECH, AND SEIZURES; NEDAMSS"
+        },
+        {
+            "code": "OMIM:618129",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL DOMINANT 4; LGMDD4"
+        },
+        {
+            "code": "OMIM:618138",
+            "display": "MUSCULAR DYSTROPHY, LIMB-GIRDLE, AUTOSOMAL RECESSIVE 23; LGMDR23"
+        },
+        {
+            "code": "OMIM:618174",
+            "display": "CORTICAL DYSPLASIA, COMPLEX, WITH OTHER BRAIN MALFORMATIONS 9; CDCBM9"
+        },
+        {
+            "code": "OMIM:618225",
+            "display": "MITOCHONDRIAL COMPLEX I DEFICIENCY, NUCLEAR TYPE 4; MC1DN4"
+        },
+        {
+            "code": "OMIM:618273",
+            "display": "MEGA-CORPUS-CALLOSUM SYNDROME WITH CEREBELLAR HYPOPLASIA AND CORTICAL MALFORMATIONS; MCCCHCM"
+        },
+        {
+            "code": "OMIM:618316",
+            "display": "INTELLECTUAL DEVELOPMENTAL DISORDER WITH CARDIAC DEFECTS AND DYSMORPHIC FACIES; IDDCDF"
+        },
+        {
+            "code": "OMIM:618325",
+            "display": "LISSENCEPHALY 9 WITH COMPLEX BRAINSTEM MALFORMATION; LIS9"
+        },
+        {
+            "code": "OMIM:618404",
+            "display": "LEUKODYSTROPHY, HYPOMYELINATING, 18; HLD18"
+        },
+        {
+            "code": "OMIM:618512",
+            "display": "O\\'DONNELL-LURIA-RODAN SYNDROME; ODLURO"
+        }
+    ]
+}
