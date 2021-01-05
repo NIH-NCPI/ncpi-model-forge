@@ -8,8 +8,8 @@
     "experimental": false,
     "description": "omim",
     "caseSensitive": true,
-    "content": "complete",
-    "count": 1,
+    "content": "fragment",
+    "count": 497,
     "concept": [
         {
             "code": "OMIM:613801",

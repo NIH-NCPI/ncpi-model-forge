@@ -8,8 +8,8 @@
     "experimental": false,
     "description": "DOID",
     "caseSensitive": true,
-    "content": "complete",
-    "count": 1,
+    "content": "fragment",
+    "count": 12,
     "concept": [
         {
             "code": "DOID:0050589",

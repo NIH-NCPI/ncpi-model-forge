@@ -8,8 +8,8 @@
   "experimental": false,
   "description": "SNOMED CT",
   "caseSensitive": true,
-  "content": "complete",
-  "count": 2,
+  "content": "fragment",
+  "count": 4,
   "concept": [
     {
       "code": "373573001",

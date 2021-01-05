@@ -8,7 +8,7 @@
     "experimental": false,
     "description": "HPO",
     "caseSensitive": true,
-    "content": "complete",
+    "content": "fragment",
     "count": 1,
     "concept": [
         {
