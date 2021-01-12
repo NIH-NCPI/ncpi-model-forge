@@ -13,6 +13,12 @@
     "include": [
       {
         "system": "http://purl.obolibrary.org/obo/hp.owl"
+      },
+      {
+        "system": "http://purl.obolibrary.org/obo/doid.owl"
+      },
+      {
+        "system": "http://purl.obolibrary.org/obo/omim.owl"
       }
     ]
   }

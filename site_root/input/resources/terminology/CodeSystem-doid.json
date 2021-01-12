@@ -1,0 +1,63 @@
+{
+    "resourceType": "CodeSystem",
+    "id": "doid",
+    "url": "http://purl.obolibrary.org/obo/doid.owl",
+    "name": "doid",
+    "title": "DOID",
+    "status": "draft",
+    "experimental": false,
+    "description": "DOID",
+    "caseSensitive": true,
+    "content": "fragment",
+    "count": 12,
+    "concept": [
+        {
+            "code": "DOID:0050589",
+            "display": "inflammatory bowel disease"
+        },
+        {
+            "code": "DOID:9744",
+            "display": "type 1 diabetes mellitus"
+        },
+        {
+            "code": "DOID:1287",
+            "display": "cardiovascular system disease"
+        },
+        {
+            "code": "DOID:3393",
+            "display": "coronary artery disease"
+        },
+        {
+            "code": "DOID:0060224",
+            "display": "atrial fibrillation"
+        },
+        {
+            "code": "DOID:0014667",
+            "display": "disease of metabolism"
+        },
+        {
+            "code": "DOID:10652",
+            "display": "Alzheimer\\'s disease"
+        },
+        {
+            "code": "DOID:0060041",
+            "display": "autism spectrum disorder"
+        },
+        {
+            "code": "DOID:2841",
+            "display": "asthma"
+        },
+        {
+            "code": "DOID:5844",
+            "display": "myocardial infarction"
+        },
+        {
+            "code": "DOID:1826",
+            "display": "epilepsy"
+        },
+        {
+            "code": "DOID:630",
+            "display": "genetic disease"
+        }
+    ]
+}
